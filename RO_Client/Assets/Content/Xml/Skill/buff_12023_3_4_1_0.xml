@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="12023" target="Boss_14_5_Lora" jobBranch="0" caster="Parter_20010_Magician" name="冰箭术" endFrame="150" jobStage="1" jobType="4" gender="3">
+    <event type="44" endFrame="60" startFrame="0">
+      <param name="animName" valueType="string" value="f_skill01_01">
+      </param>
+      <param name="hiteffect" valueType="int" value="10656">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Common/Chant/FX_Hero_Common_Chant_Bing_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="7" affectBySing="true" endFrame="48" startFrame="0">
+      <param name="buffid" valueType="int" value="20001">
+      </param>
+      <param name="rate" valueType="int" value="100">
+      </param>
+    </event>
+       <event type="7" affectBySing="true" endFrame="48" startFrame="0">
+      <param name="buffid" valueType="int" value="12856">
+      </param>
+      <param name="rate" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="49" affectBySing="true" endFrame="65" startFrame="60">
+    </event>
+    <event type="5" affectBySing="true" endFrame="98" startFrame="60">
+      <param name="animName" valueType="string" value="f_skill01_03">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="48" affectBySing="true" endFrame="150" startFrame="60">
+      <param name="delay_hurt_count" valueType="int" value="6">
+      </param>
+      <param name="delay_hurt_interval" valueType="int" value="10">
+      </param>
+      <param name="hurt_delay_frame" valueType="int" value="19">
+      </param>
+      <param name="effect" valueType="int" value="10657">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Master/Bingjianshu/FX_Hero_Master_Bjs_Hit.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="138" startFrame="69">
+      <param name="effect" valueType="int" value="10658">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Master/Bingjianshu/FX_Hero_1_Master_BJS_Release.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

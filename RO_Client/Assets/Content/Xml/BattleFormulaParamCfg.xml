@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Params>
+	<!--《体质加成人物血量公式》  基本HP=角色人物HP*（1+VIT*A）-->
+	<param id="1" value="0.02" desc="体质加成血量参数"/>
+	<!--《智力加成人物蓝量公式》  基本SP=角色人物SP*（1+INT*A）-->
+	<param id="2" value="0.02" desc="智力加成蓝量参数"/>
+	<!--《近战攻击力换算》  近战基本ATK=A *（STR+ DEX*C + LUK*C）+ B * FLOOR( STR / 10 ) ^2+角色ATK-->
+	<param id="3" value="2" desc="近战攻击力换算一次项参数"/>
+	<param id="4" value="5" desc="近战攻击力换算二次项参数"/>
+	<param id="35" value="0.5" desc="近战攻击力换算辅助参数"/>
+	<!--《远程攻击力换算》  远程基本ATK=A *（DEX+ STR*C + LUK*C）+ B * FLOOR( DEX / 10 ) ^2+角色ATK-->
+	<param id="5" value="2" desc="远程攻击力换算一次项参数"/>
+	<param id="6" value="4.4" desc="远程攻击力换算二次项参数"/>
+	<param id="36" value="0.5" desc="远程攻击力换算辅助参数"/>
+	<!--《法系攻击力换算》  基本MATK = A * INT + B * FLOOR( INT /10 ) ^2+角色MATK-->
+	<param id="7" value="2" desc="法系攻击力换算一次项参数"/>
+	<param id="8" value="5" desc="法系攻击力换算二次项参数"/>
+	<!--《物防换算》  基本DEF=A*VIT+角色DEF-->
+	<param id="9" value="2" desc="体质加成物防参数"/>
+	<!--《魔防换算》  基本MDEF=A*INT+角色MDEF-->
+	<param id="10" value="1" desc="智力加成魔防参数"/>
+	<!--《闪避换算》  基本FLEE = A*AGI+角色FLEE-->
+	<param id="11" value="3" desc="敏捷加成闪避参数"/>
+	<!--《命中换算》  基本HIT=A*DEX+角色HIT-->
+	<param id="12" value="2" desc="灵巧加成命中参数"/>
+	<!--《暴击换算》  基本CRI=A*LUK+角色LUK-->
+	<param id="13" value="2" desc="幸运加成暴击参数"/>
+	<!--《韧性换算》  基本TEN=A*LUK+角色TEN-->
+	<param id="14" value="2" desc="幸运加成韧性参数"/>
+	<!--《完全闪避公式》  完全闪避率 (%) = FLOOR( LUK * A+ 1 )-->
+	<param id="15" value="0.1" desc="完美闪避公式参数"/>
+	<!--《普通闪避公式》  受击方闪避率 (%) =MAX（MIN（MAX（25+T_Attr_14-C_Attr_13，0）/(5+MAX((T_Attr_14-C_Attr_13)*A,0)),95）-攻击方属性命中加成，0）-->
+	<param id="16" value="0.033" desc="普通闪避公式参数"/>
+	<!--《暴击公式》  CRI（%）＝MIN（1+ MAX((C_Attr_15-T_Attr_16),0)/(A+MAX((C_Attr_15-T_Attr_16),0)*B）+攻击方属性暴击加成，100）-->
+	<param id="17" value="5" desc="暴击公式参数1"/>
+	<param id="18" value="0.02" desc="暴击公式参数2"/>
+	<!--《物理伤害公式》  物理伤害=MAX（(战斗ATK*攻击方技能瞬发ATK加成%+攻击方技能瞬发ATK数值加成-战斗DEF)，1）*（1-(9*战斗DEF)/(A+战斗DEF*B)）*MAX((1+C_物伤加成-T_物伤减免),0.01)*MAX（(1+C_属性伤害加成%-T_属性伤害减少%),0.01）*MAX（(1+C_种族伤害加成%-T_种族伤害减少%),0.01）*MAX((1+（C_Att21-T_Att21）/(10+ABS（C_Att21-T_Att21）*战斗参数37)/100),0.01)-->
+	<param id="19" value="16000" desc="物理减伤参数1"/>
+	<param id="20" value="10" desc="物理减伤参数2"/>
+	<!--《魔法伤害公式》  魔法伤害=MAX（(战斗MATK*攻击方技能瞬发MATK加成%+攻击方技能瞬发MATK数值加成-战斗MDEF)，1）*（1-(9*战斗MDEF)/(A+战斗MDEF*B)）*MAX((1+C_魔伤加成-T_魔伤减免),0.01)*MAX（(1+C_属性伤害加成%-T_属性伤害减少%),0.01）*MAX（(1+C_种族伤害加成%-T_种族伤害减少%),0.01）*MAX((1+（C_Att21-T_Att21）/(10+ABS（C_Att21-T_Att21）*战斗参数37)/100),0.01)-->
+	<param id="21" value="16000" desc="魔法减伤参数1"/>
+	<param id="22" value="10" desc="魔法减伤参数2"/>
+	<!--《暴击伤害公式》  暴击伤害=(战斗ATK*攻击方技能ATK加成%+攻击方技能ATK数值加成)*MAX((1+C_物伤加成-T_物伤减免),0.01)*MAX（(1+C_属性伤害加成%-T_属性伤害减少%),0.01）*MAX（(1+C_种族伤害加成%-T_种族伤害减少%),0.01）*（A+C_爆伤加成）*MAX((1+（C_Att21-T_Att21）/(10+ABS（C_Att21-T_Att21）*战斗参数37)/100),0.01)-->
+	<param id="23" value="1.0" desc="基础爆伤参数"/>
+	
+	<!--《物理反射伤害公式》  物理反伤伤害 = Damage * T_物理反伤 -->
+
+	<!--《攻击速度公式》  ASPD=基础ASPD+AGI*A +DEX*B-->
+	<param id="24" value="0.1" desc="敏捷加成攻速参数"/>
+	<param id="25" value="0.025" desc="灵巧加成攻速参数"/>
+	<!--《攻击间隔公式》  攻击间隔=MAX(( A -ASPD),0)*B-->
+	<param id="26" value="250" desc="攻速影响攻击间隔参数1"/>
+	<param id="27" value="0.01" desc="攻速影响攻击间隔参数2"/>
+	<!--《吟唱减免公式》  MSPD=DEX*A-->
+	<param id="28" value="0.01" desc="灵巧加速吟唱参数"/>
+	<!--《属性提升攻速公式（加快动作播放速度）》  攻速提升%=AGI*A+DEX*B-->
+	<param id="29" value="0.05" desc="敏捷加速动作参数"/>
+	<param id="30" value="0.01" desc="灵巧加速动作参数"/>
+	<!--《伙伴生命成长公式》  伙伴基础血量=HP+A*（LV^2-1）+B*（LV-1）-->
+	<param id="31" value="0.8" desc="伙伴生命成长二次项"/>
+	<param id="32" value="20" desc="伙伴生命成长一次项"/>
+	<!--《伙伴蓝量成长公式》  伙伴基础血量=SP+A*（LV^2-1）+B*（LV-1）-->
+	<param id="33" value="0.001" desc="伙伴蓝量成长二次项"/>
+	<param id="34" value="0.05" desc="伙伴蓝量成长一次项"/>
+	
+	<param id="37" value="0.02" desc="神威作用上限参数"/>
+	
+</Params>

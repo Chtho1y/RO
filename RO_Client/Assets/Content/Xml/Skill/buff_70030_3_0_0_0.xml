@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="70030" target="Parter_101A1_Swrod" jobBranch="0" caster="Mini_Feng_Condor" name="怪物普攻" endFrame="32" jobStage="0" jobType="0" gender="3">
+    <event type="5" endFrame="32" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="7" endFrame="10" startFrame="0">                       
+		   <param name="buffid" valueType="int" value="79999">                         
+		    </param>                         
+		     <param name="rate" valueType="int" value="100">                
+		               </param>       
+		                </event>
+    <event type="4" endFrame="32" startFrame="13">
+      <param name="effect" valueType="int" value="10892">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Pets/Mini_Feng_Condor/Attack_01/Fx_Mini_Feng_Condor_Attack_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="46" endFrame="23" startFrame="13">
+      <param name="hiteffect" valueType="int" value="10024">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

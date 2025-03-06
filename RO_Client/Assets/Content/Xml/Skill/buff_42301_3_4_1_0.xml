@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff gender="3" jobBranch="0" jobType="4" name="火箭术" jobStage="1" endFrame="150" id="42301">
+    <event type="44" endFrame="90" startFrame="0">
+      <param name="animName" valueType="string" value="f_skill13_01">
+      </param>
+      <param name="hiteffect" valueType="int" value="10326">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Common/Chant/FX_Hero_Common_Chant_Huo_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="49" affectBySing="true" endFrame="100" startFrame="90">
+    </event>
+    <event type="5" affectBySing="true" endFrame="135" startFrame="90">
+      <param name="animName" valueType="string" value="f_skill13_03">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="48" endFrame="150" startFrame="90">
+      <param name="delay_hurt_count" valueType="int" value="5">
+      </param>
+      <param name="delay_hurt_interval" valueType="int" value="13">
+      </param>
+      <param name="hurt_delay_frame" valueType="int" value="8">
+      </param>
+      <param name="effect" valueType="int" value="10324">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Master/HuoJianShu_Skill13/FX_Hero_1_Master_Skill13_HJS_Hit.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Hit_Point">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="154" startFrame="105">
+      <param name="effect" valueType="int" value="10325">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Master/HuoJianShu_Skill13/FX_Hero_1_Master_Skill13_HJS_Shot.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

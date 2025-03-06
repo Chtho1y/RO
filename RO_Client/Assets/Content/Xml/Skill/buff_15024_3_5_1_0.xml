@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="15024" target="Parter_50022_Acolyte" jobBranch="0" caster="Parter_50021_Acolyte" name="天使赐福" endFrame="90" jobStage="1" jobType="5" gender="3">
+    <event type="44" endFrame="57" startFrame="0">
+      <param name="animName" valueType="string" value="f_skill08_01">
+      </param>
+      <param name="hiteffect" valueType="int" value="10550">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Common/Chant/FX_Hero_Common_Chant_Sheng_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+      <param name="sound" valueType="string" value="Skill/Chant_15020">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Skill/Chant_15020">
+      </param>
+    </event>
+    <event type="49" affectBySing="true" endFrame="70" startFrame="57">
+    </event>
+    <event type="5" affectBySing="true" endFrame="90" startFrame="57">
+      <param name="animName" valueType="string" value="f_skill08_03">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="96" startFrame="70">
+      <param name="effect" valueType="int" value="10385">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Acolyte/TianShiCiFu_Skill03/FX_Hero_1_Acolyte_TSCF_Skill08_02.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="46" affectBySing="true" endFrame="90" startFrame="71">
+      <param name="hiteffect" valueType="int" value="0">
+      </param>
+      <param name="sound" valueType="string" value="Hit/Hit_10005">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Hit/Hit_10005">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

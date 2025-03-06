@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff name="怪物普攻" caster="Mvp_Huo_Golem" jobBranch="0" endFrame="50" gender="3" jobStage="0" id="70082" jobType="0">
+    <event type="5" affectBySing="true" endFrame="32" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="7" endFrame="10" startFrame="0">                       
+		   <param name="buffid" valueType="int" value="79999">                         
+		    </param>                         
+		     <param name="rate" valueType="int" value="100">                
+		               </param>       
+		                </event>
+    <event type="46" affectBySing="true" endFrame="23" startFrame="13">
+      <param name="hiteffect" valueType="int" value="10084">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="50" startFrame="21">
+      <param name="effect" valueType="int" value="0">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/20105_Golem/Attack_02/Fx_20105_Golem_Attack_02.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

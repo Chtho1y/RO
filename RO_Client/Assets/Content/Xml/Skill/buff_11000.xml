@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+    <!--type:   2	播放声音		1	隐藏血条	（hovertime）    17	使用相机动作	            27	其他玩家从停止状态恢复	37	关闭攻击抖动
+                4	播放特效		3	时间加减速	18	设置下落初速度	        28	隐藏场景	                38	镜头聚焦玩家
+				5	播放技能动作		9	相机震动	    19	设置表情	                29	显示场景	                39	朝向指向目标
+				6	召唤		10	进入单人模式	20	修改相机权重	            30	场景变暗	                41	划定目标为下一次攻击的目标玩家列表。此后的攻击目标直接选择列表内玩家
+				7	buff		11	离开单人模式	21	播放重复声音	            31	场景从变暗恢复	        42	锁定伤害数字位置
+				8	移动		12	缩放释放者	22	暂停其他玩家	            32	停止相机动作	            43	取消伤害数字位置的锁定
+				40	技能结束		13	释放者变形	23	恢复其他玩家暂停状态	    33	播放不受时间影响的特效		
+				44	技能吟唱		14	镜头变换	    24	隐藏其他玩家	            34	武器节点朝向目标		
+				45	持续施法		15	播放动画	    25	显示其他玩家           	35	恢复武器节点旋转		
+				46	打击点       16	无敌	    26	停止其他玩家（暂停+变暗）	36	播放特效，带播放选项
+                47	发射子弹     48	延时伤害    49	重新选择目标             50	更换技能（fromskill toskill）   51	召唤分身（npcId npcPos switchscene）-->
+	<buff id ="11000" name="剑士女普攻" endFrame="38" gender="1">
+	    <!--startFrame:开始帧  endFrame:结束帧  animName：动作名称 hit：0.buff不生效 1.buff生效   effect：特效  effectTarget：特效目标   effectLink：特效挂载点  Bullet：子弹id Sound：音效-->
+		<event startFrame="1" endFrame="2" type="5" dec="剑士普攻1">
+		    <param name="animName" value="f_attack01" valueType="string"/>
+		</event>
+		<event startFrame="8" endFrame="0" type="2" dec="攻击声音">
+		    <param name="sound" value="Hit/Hit_10001" valueType="string"/>
+		</event>
+		<event startFrame="8" endFrame="0" type="4" dec="攻击特效">
+		    <param name="effect" value="10085" valueType="int"/>
+		</event>
+        <event startFrame="12" endFrame="0" type="46" dec="打击点">
+		    <param name="hiteffect" value="10084" valueType="int"/>
+            
+		</event>
+	</buff>
+	<buff id ="11000" name="剑士男普攻" endFrame="38" gender="2">
+	    <!--startFrame:开始帧  endFrame:结束帧  animName：动作名称 hit：0.buff不生效 1.buff生效   effect：特效  effectTarget：特效目标   effectLink：特效挂载点  Bullet：子弹id Sound：音效-->
+		<event startFrame="1" endFrame="2" type="5" dec="剑士普攻1">
+		    <param name="animName" value="f_attack01" valueType="string"/>
+		</event>
+		<event startFrame="8" endFrame="0" type="2" dec="攻击声音">
+		    <param name="sound" value="Hit/Hit_10001" valueType="string"/>
+		</event>
+		<event startFrame="8" endFrame="0" type="4" dec="攻击特效">
+		    <param name="effect" value="10085" valueType="int"/>
+		</event>
+        <event startFrame="12" endFrame="0" type="46" dec="打击点">
+		    <param name="hiteffect" value="10084" valueType="int"/>
+            
+		</event>
+	</buff>
+</FrameEvent>
