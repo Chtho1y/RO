@@ -1,0 +1,1504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1461516984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461516985}
+  - component: {fileID: 1461516986}
+  m_Layer: 0
+  m_Name: fellow5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1461516985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461516984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.448, y: 0, z: 1.2420001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018019370088}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461516986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461516984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691553dcc86df8f4fb4a61015d361ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.8}
+  radius: 0.25
+  ConfigId: 31005
+  actorType: 2
+  nextPoint: {fileID: 0}
+--- !u!1 &3263035017997998567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035017997998564}
+  - component: {fileID: 3263035017997998565}
+  m_Layer: 0
+  m_Name: SpawnBoss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035017997998564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035017997998567}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.25, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018939088418}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035017997998565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035017997998567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e2db6a9ee135247915cb2517f1f4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0, g: 1, b: 0.3233118, a: 1}
+  radius: 0.25
+  ConfigId: 90031
+  actorType: 3
+  nextPoint: {fileID: 0}
+  GroupId: 0
+  bTriggerSpawn: 1
+--- !u!1 &3263035018019370091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018019370088}
+  - component: {fileID: 3263035018019370089}
+  m_Layer: 0
+  m_Name: SpawnHeros
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018019370088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018019370091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3263035019495029429}
+  - {fileID: 3263035018211073224}
+  - {fileID: 3263035018778041061}
+  - {fileID: 3263035018830365979}
+  - {fileID: 1461516985}
+  m_Father: {fileID: 3263035018939088418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018019370089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018019370091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e2db6a9ee135247915cb2517f1f4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 1, g: 0, b: 0, a: 1}
+  radius: 0.25
+  ConfigId: 30000
+  actorType: 1
+  nextPoint: {fileID: 3263035019495029426}
+  GroupId: 0
+  bTriggerSpawn: 1
+--- !u!1 &3263035018057150028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018057150029}
+  m_Layer: 0
+  m_Name: Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018057150029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018057150028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3263035018939088418}
+  m_Father: {fileID: 3263035018595429730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3263035018211073227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018211073224}
+  - component: {fileID: 3263035018211073225}
+  m_Layer: 0
+  m_Name: fellow2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018211073224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018211073227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.711, y: 0, z: 1.055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018019370088}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018211073225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018211073227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691553dcc86df8f4fb4a61015d361ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.8}
+  radius: 0.25
+  ConfigId: 31002
+  actorType: 2
+  nextPoint: {fileID: 3263035018778041058}
+--- !u!1 &3263035018595429733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018595429730}
+  - component: {fileID: 3263035018595429731}
+  m_Layer: 0
+  m_Name: Design
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018595429730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018595429733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3263035018057150029}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018595429731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018595429733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dadd0c95e4a1154d8a5da408fd8248e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerMatches:
+  - ActorId: 30000
+    TeamType: 0
+    EventType: 2
+    Conditions: []
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: true
+      TotalTime: 0
+      bSetPos: 1
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 2000000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30003
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 5
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 7000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 10
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: Camera_on-off;Novice
+      TotalTime: 7000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 16
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: bgm_ready1
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 30000
+    TeamType: 0
+    EventType: 2
+    Conditions: []
+    ActionList:
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 5
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 5000
+  - ActorId: 90031
+    TeamType: 1
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 21
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: true
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 5
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 10
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: Camera_on-off;Boss
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player1
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 90031
+    TeamType: 1
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 21
+    ActionList:
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 6
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 1000
+  - ActorId: 30000
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 21
+    ActionList:
+    - TriggerType: 8
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 9
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1500
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 16
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: bgm_ready2
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 30000
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 6
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 12
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: TopView/BossBlood
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31002
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 6
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: false
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 14
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 1900
+  - ActorId: 31002
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 6
+    ActionList:
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: -8;0;0
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 2000
+  - ActorId: 31002
+    TeamType: 0
+    EventType: 9
+    Conditions:
+    - ActorId: 0
+      ConType: 5
+      Percent: 31002
+    ActionList:
+    - TriggerType: 13
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player3
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 9
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 100000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 1000
+  - ActorId: 31002
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 9
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31002
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31002
+      ConType: 3
+      Percent: 12902
+    ActionList:
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30001
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31004
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31002
+      ConType: 3
+      Percent: 12902
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: false
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 4000
+  - ActorId: 31004
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31002
+      ConType: 3
+      Percent: 12902
+    ActionList:
+    - TriggerType: 14
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: -5;0;8
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 5000
+  - ActorId: 31004
+    TeamType: 0
+    EventType: 9
+    Conditions:
+    - ActorId: 0
+      ConType: 5
+      Percent: 31004
+    ActionList:
+    - TriggerType: 13
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 10
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 100000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player5
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31004
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 10
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31004
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31004
+      ConType: 3
+      Percent: 14906
+    ActionList:
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30001
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31001
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31004
+      ConType: 3
+      Percent: 14906
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: false
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 4000
+  - ActorId: 31001
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31004
+      ConType: 3
+      Percent: 14906
+    ActionList:
+    - TriggerType: 14
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: -7.7;0;8
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 5000
+  - ActorId: 31001
+    TeamType: 0
+    EventType: 9
+    Conditions:
+    - ActorId: 0
+      ConType: 5
+      Percent: 31001
+    ActionList:
+    - TriggerType: 13
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 11
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 100000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player2
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31001
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 11
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31001
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31001
+      ConType: 3
+      Percent: 11902
+    ActionList:
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30001
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31003
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31001
+      ConType: 5
+      Percent: 11902
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: false
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 4000
+  - ActorId: 31003
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31001
+      ConType: 5
+      Percent: 11902
+    ActionList:
+    - TriggerType: 14
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: -5;0;0
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 5000
+  - ActorId: 31003
+    TeamType: 0
+    EventType: 9
+    Conditions:
+    - ActorId: 0
+      ConType: 5
+      Percent: 31003
+    ActionList:
+    - TriggerType: 13
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 13
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 100000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player4
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31003
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 13
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31003
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31003
+      ConType: 3
+      Percent: 13904
+    ActionList:
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30001
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31005
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31003
+      ConType: 3
+      Percent: 13904
+    ActionList:
+    - TriggerType: 1
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: false
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 4000
+  - ActorId: 31005
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31003
+      ConType: 3
+      Percent: 13904
+    ActionList:
+    - TriggerType: 14
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 4
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: -6.8;0;3
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 5000
+  - ActorId: 31005
+    TeamType: 0
+    EventType: 9
+    Conditions:
+    - ActorId: 0
+      ConType: 5
+      Percent: 31005
+    ActionList:
+    - TriggerType: 13
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 12
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 100000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: BottomView/HeadsBox/Player6
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31005
+    TeamType: 0
+    EventType: 8
+    Conditions:
+    - ActorId: 0
+      ConType: 4
+      Percent: 12
+    ActionList:
+    - TriggerType: 11
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 31005
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31005
+      ConType: 3
+      Percent: 15902
+    ActionList:
+    - TriggerType: 6
+      RefObjList: []
+      EnterUniqueId: 30001
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    - TriggerType: 2
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 1000
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 0
+  - ActorId: 90031
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 31005
+      ConType: 3
+      Percent: 15902
+    ActionList:
+    - TriggerType: 0
+      RefObjList: []
+      EnterUniqueId: 14
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 6000
+  - ActorId: 90031
+    TeamType: 1
+    EventType: 5
+    Conditions:
+    - ActorId: 90031
+      ConType: 3
+      Percent: 89003
+    ActionList:
+    - TriggerType: 15
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: WhiteShow
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 1400
+  - ActorId: 30000
+    TeamType: 0
+    EventType: 5
+    Conditions:
+    - ActorId: 90031
+      ConType: 3
+      Percent: 89003
+    ActionList:
+    - TriggerType: 7
+      RefObjList: []
+      EnterUniqueId: 0
+      ParamStr: 
+      TotalTime: 0
+      bSetPos: 0
+      bEnable: 0
+      bStopWhenLeaving: 0
+      bSrc: 0
+      bAtker: 0
+    DelayTime: 4200
+--- !u!1 &3263035018778041060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018778041061}
+  - component: {fileID: 3263035018778041058}
+  m_Layer: 0
+  m_Name: fellow3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018778041061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018778041060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.131, y: 0, z: 1.256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018019370088}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018778041058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018778041060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691553dcc86df8f4fb4a61015d361ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.8}
+  radius: 0.25
+  ConfigId: 31003
+  actorType: 2
+  nextPoint: {fileID: 3263035018830365976}
+--- !u!1 &3263035018830365978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018830365979}
+  - component: {fileID: 3263035018830365976}
+  m_Layer: 0
+  m_Name: fellow4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018830365979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018830365978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.448, y: 0, z: 1.242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018019370088}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018830365976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018830365978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691553dcc86df8f4fb4a61015d361ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.8}
+  radius: 0.25
+  ConfigId: 31004
+  actorType: 2
+  nextPoint: {fileID: 1461516986}
+--- !u!1 &3263035018939088421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035018939088418}
+  - component: {fileID: 3263035018939088419}
+  m_Layer: 0
+  m_Name: TriggerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035018939088418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018939088421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3263035018019370088}
+  - {fileID: 3263035017997998564}
+  m_Father: {fileID: 3263035018057150029}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035018939088419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035018939088421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dcc76ff5bf5666439afdeecf2f28648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  Capacity: 10
+  actionWhenFull: 0
+  AliveTicks: 1000000
+  TriggerTimes: 1
+  bDeactivateSelf: 1
+  UpdateInterval: 0
+  bSimpleUpdate: 0
+  OnlyEffectNotFullHpOrMpActor: 0
+  EnterSound: 
+  LeaveSound: 
+  NextTriggerList: []
+  TriggerActions: []
+  SpawnGroups:
+  - {fileID: 3263035018019370089}
+  - {fileID: 3263035017997998565}
+--- !u!1 &3263035019495029428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263035019495029429}
+  - component: {fileID: 3263035019495029426}
+  m_Layer: 0
+  m_Name: fellow1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263035019495029429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035019495029428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.091, y: 0, z: 0.404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3263035018019370088}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3263035019495029426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263035019495029428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 691553dcc86df8f4fb4a61015d361ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointColor: {r: 0.8, g: 0.1, b: 0.1, a: 0.8}
+  radius: 0.25
+  ConfigId: 31001
+  actorType: 2
+  nextPoint: {fileID: 3263035018211073225}
