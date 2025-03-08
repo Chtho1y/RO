@@ -1,0 +1,1 @@
+module("BattleCommon", package.seeall);

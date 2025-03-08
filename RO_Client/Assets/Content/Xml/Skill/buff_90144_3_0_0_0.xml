@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+<!--type:   2	播放声音		1	隐藏血条	（hovertime）    17	使用相机动作	            27	其他玩家从停止状态恢复	37	关闭攻击抖动
+                4	播放特效		3	时间加减速	18	设置下落初速度	        28	隐藏场景	                38	镜头聚焦玩家
+				5	播放技能动作		9	相机震动	    19	设置表情	                29	显示场景	                39	朝向指向目标
+				6	召唤		10	进入单人模式	20	修改相机权重	            30	场景变暗	                41	划定目标为下一次攻击的目标玩家列表。此后的攻击目标直接选择列表内玩家
+				7	buff		11	离开单人模式	21	播放重复声音	            31	场景从变暗恢复	        42	锁定伤害数字位置
+				8	移动		12	缩放释放者	22	暂停其他玩家	            32	停止相机动作	            43	取消伤害数字位置的锁定
+				40	技能结束		13	释放者变形	23	恢复其他玩家暂停状态	    33	播放不受时间影响的特效		
+				44	技能吟唱		14	镜头变换	    24	隐藏其他玩家	            34	武器节点朝向目标		
+				45	持续施法		15	播放动画	    25	显示其他玩家           	35	恢复武器节点旋转		
+				46	打击点       16	无敌	    26	停止其他玩家（暂停+变暗）	36	播放特效，带播放选项
+                47	发射子弹     48	延时伤害    49	重新选择目标             50	更换技能（fromskill toskill）   51	召唤分身（npcId npcPos switchscene）-->
+  <buff id="90144" target="Parter_101A1_Swrod" jobBranch="0" caster="Boss_5_4_Golem" name="狂暴巨石怪普攻2" endFrame="45" jobStage="0" jobType="0" gender="3">
+    <event type="5" affectBySing="true" endFrame="45" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="45" startFrame="19">
+      <param name="effect" valueType="int" value="10444">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/20105_Golem/Attack_02/Fx_20105_Golem_Attack_02.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="2" affectBySing="true" endFrame="45" startFrame="19">
+      <param name="sound" valueType="string" value="Hit/Hit_90021">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Hit/Hit_90021">
+      </param>
+    </event>
+    <event type="46" affectBySing="true" endFrame="35" startFrame="25">
+      <param name="hiteffect" valueType="int" value="10001">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

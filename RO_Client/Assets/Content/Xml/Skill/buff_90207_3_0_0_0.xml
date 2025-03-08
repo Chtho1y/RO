@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="90207" target="Parter_101A1_Swrod" jobBranch="0" caster="Boss_World1_Goldenbug" name="黄金盗虫技能1" endFrame="100" jobStage="0" jobType="0" gender="3">
+    <event type="44" endFrame="30" startFrame="0">
+      <param name="animName" valueType="string" value="f_chant">
+      </param>
+      <param name="hiteffect" valueType="int" value="0">
+      </param>
+    </event>
+    <event type="5" affectBySing="true" endFrame="100" startFrame="30">
+      <param name="animName" valueType="string" value="f_skill01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="2" affectBySing="true" endFrame="40" startFrame="30">
+    </event>
+    <event type="4" affectBySing="true" endFrame="78" startFrame="50">
+      <param name="effect" valueType="int" value="10457">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/Goldenbug/Skill_01/FX_Boss_Goldenbug_Skill01_a.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Hit_Point">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="91" startFrame="55">
+      <param name="effect" valueType="int" value="10458">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/Goldenbug/Skill_01/FX_Boss_Goldenbug_Skill01_Hit.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="46" affectBySing="true" endFrame="72" startFrame="62">
+      <param name="hiteffect" valueType="int" value="10024">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

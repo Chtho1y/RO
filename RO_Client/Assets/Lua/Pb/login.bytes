@@ -1,0 +1,2534 @@
+
+«∞
+login.protoserverproto
+user.proto"0
+
+ServerInfo
+id (	Rid
+port (Rport"$
+	CSPingReq
+open_id (	RopenId"
+	SCPingAck"¡
+
+CSLoginReq
+platform (	Rplatform%
+phone_platform (RphonePlatform%
+platform_token (	RplatformToken
+open_id (	RopenId
+password (	Rpassword
+
+crypt_pass (	R	cryptPass!
+game_version (RgameVersion
+ip (	Rip
+select_zone	 (R
+selectZone!
+sub_platform
+ (	RsubPlatform"k
+
+SCLoginAck
+error (Rerror
+	client_id (RclientId*
+unisdk_login_json (	RunisdkLoginJson"ù
+CSReconnectReq
+open_id (	RopenId%
+platform_token (	RplatformToken
+uid (	Ruid
+
+crypt_pass (	R	cryptPass
+platform (	Rplatform"m
+SCReconnectAck
+error (RerrorE
+reconnect_data (2.serverproto.ReconnectUserDataRreconnectData"/
+SCHandShakeNtf
+
+crypt_pass (	R	cryptPass"È
+CSCreateRoleReq
+open_id (	RopenId
+job_id (RjobId
+sex (Rsex
+country (Rcountry
+eye (Reye
+hair (Rhair
+head (Rhead
+hair_avatar (R
+hairAvatar
+active_code	 (	R
+activeCode"{
+SCCreateRoleAck
+error (Rerror(
+create_role_time (RcreateRoleTime
+uid (Ruid
+gender (Rgender"
+	CSNameReq
+name (	Rname"5
+	SCNameAck
+error (Rerror
+name (	Rname"»
+SCStartupInfoNtf
+server_time (R
+serverTime
+create_time (R
+createTimeA
+reconnect_info (2.serverproto.ReconnectInfoRreconnectInfo2
+	role_base (2.serverproto.RoleBaseRroleBase/
+role_bag (2.serverproto.RoleBagRroleBag2
+	role_hero (2.serverproto.RoleHeroRroleHero5
+
+role_equip (2.serverproto.RoleEquipR	roleEquip2
+	role_chip (2.serverproto.RoleChipRroleChip5
+
+role_skill	 (2.serverproto.RoleSkillR	roleSkill2
+	role_card
+ (2.serverproto.RoleCardRroleCard;
+role_fashion (2.serverproto.RoleFashionRroleFashion8
+role_battle (2.serverproto.RoleBattleR
+roleBattleD
+role_fightpower (2.serverproto.FightPowerDataRroleFightpower2
+	role_chat (2.serverproto.RoleChatRroleChat2
+	role_task (2.serverproto.RoleTaskRroleTask/
+role_red (2.serverproto.RoleRedRroleRedG
+role_competition (2.serverproto.RoleCompetitionRroleCompetition/
+role_map (2.serverproto.RoleMapRroleMap5
+
+role_tower (2.serverproto.RoleTowerR	roleTower2
+	role_draw (2.serverproto.RoleDrawRroleDraw2
+	role_rune (2.serverproto.RoleRuneRroleRuneG
+role_daochang100 (2.serverproto.RoleDaoChang100RroleDaochang1005
+
+role_cross (2.serverproto.RoleCrossR	roleCrossE
+role_skill_equip (2.serverproto.RoleSkillEquipRroleSkillEquip9
+role_wish_box (2.serverproto.RoleWishRroleWishBox!
+func_disabled (RfuncDisable,
+service_start_timee (RserviceStartTime"O
+SCStartupInfoPetNtf8
+role_pet_info (2.serverproto.RolePetRrolePetInfo"W
+SCStartupInfoEquipNtf>
+role_equip_info (2.serverproto.RoleEquipRroleEquipInfo"S
+SCStartupInfoCardNtf;
+role_card_info (2.serverproto.RoleCardRroleCardInfo"
+SCStartupInfoEndNtf"
+CSGetServerTimeReq"5
+SCGetServerTimeAck
+server_time (R
+serverTime"#
+SCLogoutNtf
+error (Rerror"F
+SCKickOutNtf
+error (Rerror 
+ban_end_time (R
+banEndTime"d
+CSAddAttrPointReq6
+	attr_list (2.serverproto.KeyValueTypeRattrList
+hero_id (RheroId"B
+SCAddAttrPointAck
+error (Rerror
+hero_id (RheroId".
+CSResetAttrPointReq
+hero_id (RheroId"D
+SCResetAttrPointAck
+error (Rerror
+hero_id (RheroId"H
+CSAddQualityPointReq
+hero_id (RheroId
+item_id (RitemId"^
+SCAddQualityPointAck
+error (Rerror
+hero_id (RheroId
+item_id (RitemId"H
+SCFightPowerChagneNtf/
+data (2.serverproto.FightPowerDataRdata"*
+CSActiveHeadReq
+head_id (RheadId"@
+SCActiveHeadAck
+error (Rerror
+head_id (RheadId"
+CSHeadInfoReq"d
+SCHeadInfoAck
+	head_list (RheadList6
+	head_Info (2.serverproto.RoleHeadCondRheadInfo")
+CSSetHeadIdReq
+head_id (RheadId"?
+SCSetHeadIdAck
+error (Rerror
+head_id (RheadId"!
+CSRenameReq
+name (	Rname"7
+SCRenameAck
+error (Rerror
+name (	Rname":
+CSChangeHeadFrameReq"
+head_frame_id (RheadFrameId"P
+SCChangeHeadFrameAck
+error (Rerror"
+head_frame_id (RheadFrameId"
+CSHeadFrameInfoReq"e
+SCHeadFrameInfoAck
+error (Rerror9
+
+head_frame (2.serverproto.HeadFrameDataR	headFrame"Q
+SCHeadFrameChangeNtf9
+
+head_frame (2.serverproto.HeadFrameDataR	headFrame"K
+CSUseHeadFrameItemReq
+item_id (RitemId
+item_num (RitemNum"e
+SCUseHeadFrameItemAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"+
+CSHeroLevelUpReq
+hero_id (RheroId"`
+SCHeroLevelUpAck
+error (Rerror
+hero_id (RheroId
+
+hero_level (R	heroLevel"+
+CSHeroAdvanceReq
+hero_id (RheroId"f
+SCHeroAdvanceAck
+error (Rerror
+hero_id (RheroId#
+advance_level (RadvanceLevel"G
+CSHeroBattleReq
+hero_id (RheroId
+	is_battle (RisBattle"'
+SCHeroBattleAck
+error (Rerror"L
+SCBaseLevelUpNtf
+	old_level (RoldLevel
+	new_level (RnewLevel"K
+SCJobLevelUpNtf
+	old_level (RoldLevel
+	new_level (RnewLevel"÷
+SCRoleBaseInfoNtf
+coin (Rcoin
+rmb (Rrmb2
+	role_data (2.serverproto.RoleDataRroleData4
+res_list (2.serverproto.KeyValueTypeRresList1
+repress_skill_pvp_val (RrepressSkillPvpVal"G
+SCRoleHeroInfoNtf2
+	hero_data (2.serverproto.HeroDataRheroData"v
+CSHeroChipDecomposeReq$
+chip_type_list (RchipTypeList6
+	chip_list (2.serverproto.KeyValueTypeRchipList"f
+SCHeroChipDecomposeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList",
+CSHeroStrengthReq
+hero_id (RheroId"i
+SCHeroStrengthAck
+error (Rerror
+hero_id (RheroId%
+strength_level (RstrengthLevel"D
+CSHeroChangeJobReq
+hero_id (RheroId
+job_id (RjobId"C
+SCHeroChangeJobAck
+error (Rerror
+hero_id (RheroId"M
+SCHeroConditinDataNtf4
+	condition (2.serverproto.ChangeJobR	condition"-
+CSHeroFighPowerReq
+hero_id (RheroId"C
+SCHeroFighPowerAck
+error (Rerror
+hero_id (RheroId"I
+CSHeroResetSkillPointReq
+hero_id (RheroId
+stage (Rstage"0
+SCHeroResetSkillPointAck
+error (Rerror"*
+CSHeroActiveReq
+hero_id (RheroId"@
+SCHeroActiveAck
+error (Rerror
+hero_id (RheroId"E
+CSHeroReplaceJobReq
+hero_id (RheroId
+job_id (RjobId"[
+SCHeroReplaceJobAck
+error (Rerror
+hero_id (RheroId
+job_id (RjobId"â
+SCSkillEquipChangeNtfX
+skill_equip_change_list (2!.serverproto.SkillEquipChangeDataRskillEquipChangeList
+ignore (Rignore"q
+CSSkillEquipUpReq
+hero_id (RheroId
+
+slot_index (R	slotIndex$
+skill_equip_id (RskillEquipId")
+SCSkillEquipUpAck
+error (Rerror"g
+SCSkillEquipSlotDataNtf3
+slot (2.serverproto.SkillEquipSlotDataRslot
+hero_id (RheroId"M
+CSSkillEquipDownReq
+hero_id (RheroId
+
+slot_index (R	slotIndex"+
+SCSkillEquipDownAck
+error (Rerror"x
+CSSkillEquipLevelUpReq
+hero_id (RheroId$
+skill_equip_id (RskillEquipId
+select_cost (R
+selectCost".
+SCSkillEquipLevelUpAck
+error (Rerror"T
+CSSkillEquipSlotLevelUpReq
+hero_id (RheroId
+
+slot_index (R	slotIndex"2
+SCSkillEquipSlotLevelUpAck
+error (Rerror"@
+CSSkillEquipDecomposeReq$
+skill_equip_id (RskillEquipId"h
+SCSkillEquipDecomposeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"=
+CSSkillEquipRemadeReq$
+skill_equip_id (RskillEquipId"[
+SCSkillEquipRemadeAck
+error (Rerror
+old_id (RoldId
+new_id (RnewId"
+CSSkillEquipPoolReq"†
+SCSkillEquipPoolAck
+error (Rerror
+cur_id (RcurId 
+pool_id_list (R
+poolIdList
+	next_pool (RnextPool
+
+next_begin (R	nextBegin"D
+CSSkillEquipShiftReq
+src_id (RsrcId
+dst_id (RdstId",
+SCSkillEquipShiftAck
+error (Rerror"á
+CSEquipForgeReq
+	config_id (RconfigId
+once (Ronce
+
+equip_type (R	equipType$
+sub_equip_type (RsubEquipType";
+SCEquipForgeAck
+error (Rerror
+type (Rtype"a
+SCEquipChangeNtf5
+
+equip_list (2.serverproto.EquipDataR	equipList
+ignore (Rignore"a
+CSEquipUpReq
+hero_id (RheroId
+
+slot_index (R	slotIndex
+equip_id (RequipId"$
+SCEquipUpAck
+error (Rerror"S
+SCSlotDataNtf)
+slot (2.serverproto.SlotDataRslot
+hero_id (RheroId"F
+CSEquipDownReq
+hero_id (RheroId
+	sub_index (RsubIndex"/
+CSEquipLevelUpAllReq
+hero_id (RheroId",
+SCEquipLevelUpAllAck
+error (Rerror"V
+CSEquipSlotLevelUpReq
+hero_id (RheroId$
+sub_slot_index (RsubSlotIndex"-
+SCEquipSlotLevelUpAck
+error (Rerror"ê
+CSCardMountReq
+hero_id (RheroId$
+sub_slot_index (RsubSlotIndex&
+card_slot_index (RcardSlotIndex
+card_id (RcardId"&
+SCCardMountAck
+error (Rerror"v
+CSCardDownReq
+hero_id (RheroId$
+sub_slot_index (RsubSlotIndex&
+card_slot_index (RcardSlotIndex"%
+SCCardDownAck
+error (Rerror"/
+CSCardComposeReq
+	card_list (RcardList"H
+SCCardComposeAck
+error (Rerror
+new_card_id (R	newCardId"i
+CSCardDecomposeReq6
+	card_list (2.serverproto.KeyValueTypeRcardList
+	card_type (RcardType"b
+SCCardDecomposeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"]
+SCCardChangeNtf2
+	card_list (2.serverproto.CardDataRcardList
+ignore (Rignore"M
+SCCardSlotChangeNtf6
+	slot_list (2.serverproto.KeyValueTypeRslotList"]
+SCItemChangeNtf2
+	item_list (2.serverproto.ItemDataRitemList
+ignore (Rignore"ä
+CSUseItemReq
+item_id (RitemId
+item_num (RitemNum"
+item_idx_list (RitemIdxList"
+force_item_id (RforceItemId"\
+SCUseItemAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"0
+CSDelItemReq 
+item_id_list (R
+itemIdList"K
+SCDelItemAck
+error (Rerror%
+del_cfg_id_list (RdelCfgIdList"/
+CSChipComposeReq
+	config_id (RconfigId"(
+SCChipComposeAck
+error (Rerror"E
+SCChipChangeNtf2
+	chip_list (2.serverproto.ChipDataRchipList"L
+CSCardUpGradeReq8
+
+config_ids (2.serverproto.KeyValueTypeR	configIds"b
+SCCardUpGradeAck
+error (Rerror8
+
+config_ids (2.serverproto.KeyValueTypeR	configIds"q
+CSCardEquipAllReq
+hero_id (RheroIdC
+eqiup_slot_data (2.serverproto.EquipSlotCardsReqiupSlotData"B
+SCCardEquipAllAck
+error (Rerror
+hero_id (RheroId"-
+CSCardEquipDownReq
+hero_id (RheroId"C
+SCCardEquipDownAck
+hero_id (RheroId
+error (Rerror"]
+CSCardUpGradeAllReq
+hero_id (RheroId-
+data (2.serverproto.KeyValueTypeRdata"D
+SCCardUpGradeAllAck
+hero_id (RheroId
+error (Rerror"
+CSCardCollectInfoReq"i
+SCCardCollectInfoAck
+error (Rerror;
+card_collect (2.serverproto.CardCollectRcardCollect"G
+CSCardCollectRewardReq
+card_id (RcardId
+level (Rlevel"ô
+SCCardCollectRewardAck
+error (Rerror
+card_id (RcardId
+level (Rlevel:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"U
+SCCardCollectChangeNtf;
+card_collect (2.serverproto.CardCollectRcardCollect"2
+CSCardCollectionRankReq
+card_id (RcardId"◊
+SCCardCollectionRankAck
+error (Rerror
+card_id (RcardId
+
+card_level (R	cardLevelC
+player_info (2".serverproto.CommonPlayerBriefInfoR
+playerInfo)
+achievement_time (RachievementTime"d
+CSCardLevelExchangeReq$
+source_card_id (RsourceCardId$
+target_card_id (RtargetCardId"z
+SCCardLevelExchangeAck
+error (Rerror$
+source_card_id (RsourceCardId$
+target_card_id (RtargetCardId"f
+SCSkillSlotDataNtf
+hero_id (RheroId7
+	slot_info (2.serverproto.RoleSkillSlotRslotInfo"m
+SCJobSkillDataNtf
+hero_id (RheroId?
+job_skill_list (2.serverproto.JobSkillDataRjobSkillList"B
+CSSkillSlotLevelUpReq
+hero_id (RheroId
+idx (Ridx"-
+SCSkillSlotLevelUpAck
+error (Rerror"Y
+CSReplaceSkillReq
+hero_id (RheroId
+idx (Ridx
+skill_id (RskillId")
+SCReplaceSkillAck
+error (Rerror"F
+CSActiveSkillReq
+hero_id (RheroId
+skill_id (RskillId"(
+SCActiveSkillAck
+error (Rerror"W
+CSSwapSkillReq
+hero_id (RheroId
+first (Rfirst
+second (Rsecond"&
+SCSwapSkillAck
+error (Rerror"K
+CSSetSkillListReq
+hero_id (RheroId
+
+skill_list (R	skillList"B
+SCSetSkillListAck
+error (Rerror
+hero_id (RheroId"G
+CSSkillLevelUpReq
+hero_id (RheroId
+skill_id (RskillId"]
+SCSkillLevelUpAck
+error (Rerror
+hero_id (RheroId
+skill_id (RskillId"P
+CSResetSkillLevelReq
+hero_id (RheroId
+is_advanced (R
+isAdvanced"f
+SCResetSkillLevelAck
+error (Rerror
+hero_id (RheroId
+reset_count (R
+resetCount"7
+SCSkillResetCountNtf
+reset_count (R
+resetCount"0
+CSRushActivityReq
+	rush_type (RrushType"æ
+SCRushActivityAck
+error (Rerror
+fight_count (R
+fightCount
+	self_rank (RselfRank
+
+self_level (R	selfLevel
+end_time (RendTime'
+challeng_reward (RchallengReward
+rank_reward (R
+rankReward4
+top_data (2.serverproto.RushRankTop3RtopData
+	rush_type	 (RrushType"W
+CSRushActivityRewardReq
+reward_type (R
+rewardType
+	rush_type (RrushType"•
+SCRushActivityRewardAck
+error (Rerror
+reward_type (R
+rewardType6
+	item_list (2.serverproto.KeyValueTypeRitemList
+	rush_type (RrushType"M
+CSRushSkillActivityRankReq
+page (Rpage
+	rush_type (RrushType"|
+SCRushSkillActivityRankAck
+error (Rerror
+page (Rpage4
+top_data (2.serverproto.RushRankTop3RtopData"]
+SCFashionDataNtf&
+fashion_up_list (RfashionUpList!
+fashion_list (RfashionList"6
+CSFashionUpReq$
+fashion_cfg_id (RfashionCfgId"&
+SCFashionUpAck
+error (Rerror"8
+CSFashionDownReq$
+fashion_cfg_id (RfashionCfgId"(
+SCFashionDownAck
+error (Rerror"7
+CSFashionComposeReq 
+paper_cfg_id (R
+paperCfgId"+
+SCFashionComposeAck
+error (Rerror">
+CSFashionPaperDecomposeReq 
+paper_cfg_id (R
+paperCfgId"j
+SCFashionPaperDecomposeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"9
+CSFashionUpLvlReq$
+fashion_cfg_id (RfashionCfgId")
+SCFashionUpLvlAck
+error (Rerror"|
+SCFashionNtf?
+fashion_data (2.serverproto.RoleFashionDataRfashionData+
+lvs (2.serverproto.KeyValueTypeRlvs"S
+CSFashionResetAttrReq
+enter (Renter$
+fashion_cfg_id (RfashionCfgId"-
+SCFashionResetAttrAck
+error (Rerror"F
+CSGetOtherPlayerDetailInfoReq
+uid (Ruid
+t_uid (RtUid"É
+SCGetOtherPlayerDetailInfoAck
+uid (Ruid
+error (Rerror:
+target_info (2.serverproto.ViewRoleInfoR
+targetInfo"S
+CSGetOtherPlayerBriefInfoReq
+player_list (R
+playerList
+type (Rtype"u
+SCGetOtherPlayerBriefInfoAckA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo
+type (Rtype"ø
+CSPlayerChallengeSummonReq
+uid (Ruid,
+challenge_boss_uid (RchallengeBossUid&
+boss_summon_idx (RbossSummonIdx9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"r
+SCPlayerChallengeSummonAck
+error (Rerror>
+	boss_info (2!.serverproto.WorldBossContentInfoRbossInfo"Ê
+SCPlayerChallengeSummonNtf
+self_uid (RselfUid9
+
+fight_list (2.serverproto.FightRoleInfoR	fightList
+boss_uid (RbossUid-
+self_change_play_id (RselfChangePlayId(
+summon_boss_type (RsummonBossType"T
+CSPlayerChallengeHpReq
+	damage_hp (RdamageHp
+
+action_uid (R	actionUid"8
+SCPlayerChallengeHpNtf
+cur_boss_hp (R	curBossHp"
+CSPlayerLeaveChallengeReq"-
+SCPlayerLeaveChallengeNtf
+uid (Ruid"4
+SCPlayerChallengeResultNtf
+result (Rresult"
+CSPlayerWorldBossListReq"e
+SCPlayerWorldBossListAckI
+world_boss_list (2!.serverproto.WorldBossContentInfoRworldBossList"t
+SCPlayerWorldBossRandNtf
+error (RerrorB
+
+point_info (2#.serverproto.WorldBossRandPointInfoR	pointInfo"y
+SCRoleMapChangeNtf(
+world_boss_count (RworldBossCount9
+world_boss_challenge_list (RworldBossChallengeList"∂
+CSChatMessageReq
+type (Rtype6
+message (2.serverproto.ChatMessageInfoRmessage
+	target_id (RtargetId9
+from_id (2 .serverproto.ChatPlayerBriefInfoRfromId"ë
+SCChatMessageAck
+error (Rerror
+	target_id (RtargetId6
+message (2.serverproto.ChatMessageInfoRmessage
+type (Rtype"à
+SCChatMessageNtf:
+msg_list (2.serverproto.MessageContentInfoRmsgList8
+
+s_msg_list (2.serverproto.SystemMessageRsMsgList"<
+CSChatPlayerStateReq$
+target_id_list (RtargetIdList"S
+SCChatPlayerStateAck;
+
+state_list (2.serverproto.PlayerStateInfoR	stateList"K
+CSChatOfflineMsgReq
+	target_id (RtargetId
+self_id (RselfId"´
+SCChatOfflineMsgAck
+error (RerrorE
+target_player (2 .serverproto.ChatPlayerBriefInfoRtargetPlayer7
+msg_list (2.serverproto.ChatMessageInfoRmsgList"_
+SCChatOfflinePlayerNtfE
+offline_player_list (2.serverproto.RoleChatRofflinePlayerList"I
+SCSystemMessageNtf3
+sys_msg (2.serverproto.SystemMessageRsysMsg"
+CSPlayerIncomeReq"a
+SCPlayerIncomeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"û
+CSPlayerBossRewardReq%
+challenge_time (RchallengeTime
+map_id (RmapId
+	map_level (RmapLevel*
+record_time_stamp (RrecordTimeStamp"ë
+SCPlayerBossRewardAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList*
+server_time_stamp (RserverTimeStamp"{
+!SCPlayerBattleRecordDetailSaveNtf*
+battle_record_uid (RbattleRecordUid*
+record_time_stamp (RrecordTimeStamp"ç
+!CSPlayerBattleRecordDetailSaveReq*
+battle_record_uid (RbattleRecordUid#
+battle_record (	RbattleRecord
+open_id (	RopenId"9
+!SCPlayerBattleRecordDetailSaveAck
+error (Rerror"d
+CSPlayerBattleRecordDetailReq*
+battle_record_uid (RbattleRecordUid
+open_id (	RopenId"Ü
+SCPlayerBattleRecordDetailAck
+error (Rerror*
+battle_record_uid (RbattleRecordUid#
+battle_record (	RbattleRecord"Y
+CSPlayerBattleRecordReq
+record_type (R
+recordType
+
+param_list (R	paramList"o
+SCPlayerBattleRecordAck
+error (Rerror>
+record_list (2.serverproto.BattleRecordInfoR
+recordList"é
+SCPlayerBattleDataChangeNtf(
+last_income_time (RlastIncomeTime
+	map_level (RmapLevel
+map_id (RmapId&
+max_income_time (RmaxIncomeTime?
+quick_battle (2.serverproto.QuickBattleDataRquickBattle(
+reward_map_count (RrewardMapCount"
+CSGetMapRankReq"®
+SCGetMapRankAck
+error (Rerror
+	self_rank (RselfRank
+
+total_rank (R	totalRankC
+top_player_list (2.serverproto.RankPlayerInfoRtopPlayerList"L
+CSBattleResultReq7
+	actor_pos (2.serverproto.ActorPositionRactorPos"D
+SCBattleResultAck
+error (Rerror
+win_lose (RwinLose"
+CSQuickBattleIncomeReq"f
+SCQuickBattleIncomeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"
+CSBattleBossFightReq"ä
+SCBattleBossFightAck
+error (Rerror 
+left_cd_time (R
+leftCdTime:
+factor_list (2.serverproto.KeyValueTypeR
+factorList"
+CSMapActivityReq"ÿ
+SCMapActivityAck
+error (Rerror
+	map_score (RmapScore
+	bag_score (RbagScore
+	self_rank (RselfRank
+
+self_level (R	selfLevel
+end_time (RendTime'
+challeng_reward (RchallengReward
+rank_reward (R
+rankReward4
+top_data	 (2.serverproto.RushRankTop3RtopData
+
+rush_level
+ (R	rushLevel"+
+CSEvilRefreshReq
+b_force (RbForce"J
+SCEvilRefreshAck
+error (Rerror 
+pos_idx_list (R
+posIdxList"ä
+SCEvilChangeNtf8
+	evil_info (2.serverproto.BattleEvilDataRevilInfo=
+add_item_list (2.serverproto.KeyValueTypeRaddItemList"-
+CSEvilChallengeReq
+pos_idx (RposIdx"`
+SCEvilChallengeAck
+error (Rerror
+pos_idx (RposIdx
+	add_count (RaddCount"-
+CSGetTaskRewardReq
+task_id (RtaskId"b
+SCGetTaskRewardAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"ª
+SCTaskChangeNtf?
+task_change_list (2.serverproto.TaskDataRtaskChangeListC
+daily_task_score (2.serverproto.KeyValueTypeRdailyTaskScoreA
+week_task_score (2.serverproto.KeyValueTypeRweekTaskScore*
+latest5_hour_time (Rlatest5HourTime3
+latest_week5_hour_time (RlatestWeek5HourTime"Y
+CSGetTaskScoreRewardReq
+reward_type (R
+rewardType
+
+reward_idx (R	rewardIdx"g
+SCGetTaskScoreRewardAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"ã
+
+SCArenaNtf'
+challenge_count (RchallengeCount!
+reward_count (RrewardCount
+	buy_count (RbuyCount
+	win_count (RwinCount
+total_count (R
+totalCount
+score (Rscore$
+self_hero_list (RselfHeroList
+	season_id (RseasonId&
+season_end_time	 (RseasonEndTime3
+next_season_start_time
+ (RnextSeasonStartTime 
+minTopScore (RminTopScore"ˇ
+SCArenaChangeNtf'
+challenge_count (RchallengeCount!
+reward_count (RrewardCount
+	buy_count (RbuyCount
+	win_count (RwinCount
+total_count (R
+totalCount
+score (Rscore
+	season_id (RseasonId
+rank_idx (RrankIdx(
+win_streak_count	 (RwinStreakCount*
+fail_streak_count
+ (RfailStreakCount 
+minTopScore (RminTopScore"
+
+CSArenaReq".
+CSArenaMatchReq
+	hero_list (RheroList"b
+SCArenaMatchAck
+error (Rerror9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"5
+CSArenaResultReq!
+fight_result (RfightResult"û
+SCArenaResultAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+	old_score (RoldScore
+	cur_score (RcurScore"1
+CSArenaBuyCountReq
+	buy_count (RbuyCount"*
+SCArenaBuyCountAck
+error (Rerror"N
+CSArenaRankListReq
+	rank_type (RrankType
+	start_idx (RstartIdx"‚
+SCArenaRankListAck
+error (Rerror7
+	rank_list (2.serverproto.ArenaRankInfoRrankList
+	self_rank (RselfRank
+	rank_type (RrankType
+	start_idx (RstartIdx&
+self_rank_score (RselfRankScore"
+CSArenaActivityReq"¢
+SCArenaActivityAck
+error (Rerror
+fight_count (R
+fightCount
+	self_rank (RselfRank
+
+self_level (R	selfLevel
+end_time (RendTime'
+challeng_reward (RchallengReward
+rank_reward (R
+rankReward4
+top_data (2.serverproto.RushRankTop3RtopData"
+CSMailListReq"p
+SCMailListAck(
+total_mail_count (RtotalMailCount5
+	mail_list (2.serverproto.MailContentRmailList"1
+CSMailReadReq 
+mail_id_list (R
+mailIdList"%
+SCMailReadAck
+error (Rerror"3
+CSMailRewardReq 
+mail_id_list (R
+mailIdList"c
+SCMailRewardAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"
+CSMailDelReadReq"(
+SCMailDelReadAck
+error (Rerror"‡
+SCMailChangeNtfA
+mail_state_list (2.serverproto.KeyValueTypeRmailStateList"
+del_mail_list (RdelMailList<
+add_mail_list (2.serverproto.MailContentRaddMailList(
+total_mail_count (RtotalMailCount"9
+CSCompetitionReq%
+competition_id (RcompetitionId"¿
+SCCompetitionNtfG
+competition_data (2.serverproto.CompetitionInfoRcompetitionData2
+next_competition_time (RnextCompetitionTime/
+data (2.serverproto.IdolSeasonDataRdata"O
+SCCompetitionAck
+error (Rerror%
+competition_id (RcompetitionId"O
+CSCompetitionScoreReq6
+	item_list (2.serverproto.KeyValueTypeRitemList"Ò
+SCCompetitionScoreAck
+error (Rerror
+	com_score (RcomScore$
+next_com_score (RnextComScore
+	self_rank (RselfRank
+
+total_rank (R	totalRank
+
+section_id (R	sectionId$
+last_com_score (RlastComScore"i
+CSShopBuyItemReq
+goods_id (RgoodsId
+	goods_num (RgoodsNum
+
+goods_type (R	goodsType"’
+SCShopBuyItemAck
+error (Rerror
+goods_id (RgoodsId
+
+goods_type (R	goodsType
+cur_num (RcurNum 
+cur_buy_time (R
+curBuyTime6
+	item_list (2.serverproto.KeyValueTypeRitemList".
+CSShopInfoReq
+
+goods_type (R	goodsType"Y
+SCShopInfoAck
+error (Rerror2
+	shop_data (2.serverproto.ShopDataRshopData"1
+CSShopRefreshReq
+
+goods_type (R	goodsType"\
+SCShopRefreshAck
+error (Rerror2
+	shop_data (2.serverproto.ShopDataRshopData"
+CSRedBagExchangeReq"^
+SCRedBagExchangeAck
+error (Rerror1
+reward (2.serverproto.KeyValueTypeRreward"!
+CSFriendReq
+type (Rtype"~
+SCFriendAck
+type (Rtype
+total_count (R
+totalCount
+total_limit (R
+totalLimit
+uid_list (RuidList")
+CSFriendAddReq
+add_uid (RaddUid"i
+SCFriendAddAck
+error (RerrorA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo"S
+SCFriendAddNtfA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo")
+CSFriendDelReq
+del_uid (RdelUid"?
+SCFriendDelAck
+error (Rerror
+del_uid (RdelUid")
+SCFriendDelNtf
+del_uid (RdelUid"/
+CSFriendBlackReq
+	black_uid (RblackUid"k
+SCFriendBlackAck
+error (RerrorA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo"
+CSFriendRecommendReq"x
+SCFriendRecommendAck
+error (RerrorJ
+brief_info_list (2".serverproto.CommonPlayerBriefInfoRbriefInfoList"b
+SCFriendRecommendNtfJ
+brief_info_list (2".serverproto.CommonPlayerBriefInfoRbriefInfoList"4
+CSFriendSearchReq
+target_name (	R
+targetName"u
+SCFriendSearchAck
+error (RerrorJ
+brief_info_list (2".serverproto.CommonPlayerBriefInfoRbriefInfoList"6
+SCRoleRedNtf&
+red (2.serverproto.RoleRedRred"+
+CSRoleGuideNtf
+guide_id (RguideId"\
+SCRoleStoryNtf
+Story (RStory4
+map_cart (2.serverproto.KeyValueTypeRmapCart"F
+CSRoleStoryReq4
+story_id (2.serverproto.KeyValueTypeRstoryId"\
+SCRoleStoryAck
+error (Rerror4
+story_id (2.serverproto.KeyValueTypeRstoryId"J
+CSNewMapCartoonReq4
+map_cart (2.serverproto.KeyValueTypeRmapCart"`
+SCNewMapCartoonAck
+error (Rerror4
+map_cart (2.serverproto.KeyValueTypeRmapCart"L
+CSCompulsoryGuidanceReq
+story_id (RstoryId
+status (Rstatus"b
+SCCompulsoryGuidanceAck
+error (Rerror
+story_id (RstoryId
+status (Rstatus"
+CSSignUpInfoReq"°
+SCSignUpInfoAck
+error (Rerror0
+	sign_info (2.serverproto.SignUpRsignInfo 
+cur_sign_day (R
+curSignDay$
+next_sign_time (RnextSignTime"
+CSSignUpReq"«
+SCSignUpAck
+error (Rerror4
+day_list (2.serverproto.KeyValueTypeRdayList6
+	accu_list (2.serverproto.KeyValueTypeRaccuList:
+double_list (2.serverproto.KeyValueTypeR
+doubleList$
+next_sign_time (RnextSignTime0
+	sign_info (2.serverproto.SignUpRsignInfo 
+cur_sign_day (R
+curSignDay"
+CSClimbingTowerInfoReq"ë
+SCClimbingTowerInfoAck&
+now_tower_level (RnowTowerLevel
+	pass_time (RpassTime2
+infos (2.serverproto.FriendTowerInfoRinfos"X
+CSFriendPassTowerInfoReq
+begin_index (R
+beginIndex
+	end_index (RendIndex"N
+SCFriendPassTowerInfoAck2
+infos (2.serverproto.FriendTowerInfoRinfos"Ã
+MinTowerInfo
+tower_level (R
+towerLevel
+fight_power (R
+fightPower8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief
+record_time (R
+recordTime
+battle_time (R
+battleTime"?
+CSTowerLevelMinFightPowerReq
+tower_level (R
+towerLevel"_
+SCTowerLevelMinFightPowerAck?
+min_tower_info (2.serverproto.MinTowerInfoRminTowerInfo"_
+SCTowerLevelMinFightPowerNtf?
+min_tower_info (2.serverproto.MinTowerInfoRminTowerInfo":
+CSClimbingTowerBeginReq
+tower_level (R
+towerLevel"å
+SCClimbingTowerBeginAck
+error (Rerror
+tower_level (R
+towerLevel:
+factor_list (2.serverproto.KeyValueTypeR
+factorList"á
+CSClimbingTowerEndReq
+tower_level (R
+towerLevel!
+loading_time (RloadingTime*
+record_time_stamp (RrecordTimeStamp"£
+SCClimbingTowerEndAck
+error (Rerror
+tower_level (R
+towerLevel9
+	pass_info (2.serverproto.FriendTowerInfoRpassInfo
+	pass_time (RpassTime:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList?
+ex_reward_list (2.serverproto.KeyValueTypeRexRewardList"
+CSClimbingTowerRankReq"Ö
+SCClimbingTowerRankAck
+error (Rerror8
+	rank_list (2.serverproto.KeyValueType64RrankList
+	self_rank (RselfRank"
+CSOnlineRushInfoReq"Q
+SCOnlineRushInfoAck:
+	rush_data (2.serverproto.RushActivityDataRrushData"
+CSTowerActivityReq"¢
+SCTowerActivityAck
+error (Rerror
+fight_count (R
+fightCount
+	self_rank (RselfRank
+
+self_level (R	selfLevel
+end_time (RendTime'
+challeng_reward (RchallengReward
+rank_reward (R
+rankReward4
+top_data (2.serverproto.RushRankTop3RtopData"c
+CSBuildGuildReq
+
+guild_name (	R	guildName
+guild_badge (R
+guildBadge
+uid (Ruid"a
+SCBuildGuildAck
+error (Rerror8
+guild_brief (2.serverproto.GuildBriefR
+guildBrief"@
+CSDisbandGuildReq
+uid (Ruid
+guild_id (RguildId")
+SCDisbandGuildAck
+error (Rerror"m
+CSApplyGuildReq
+guild_id (RguildId
+uid (Ruid
+level (Rlevel
+op_type (RopType"[
+SCApplyGuildAck
+error (Rerror
+guild_id (RguildId
+op_type (RopType"=
+CSQuitGuildReq
+guild_id (RguildId
+uid (Ruid"&
+SCQuitGuildAck
+error (Rerror"\
+CSKickGuildMemberReq
+uid (Ruid
+guild_id (RguildId
+pre_uid (RpreUid">
+SCKickGuildMemberAck
+error (Rerror
+uid (Ruid"C
+SCKickGuildMemberNtf
+guild_id (RguildId
+uid (Ruid"t
+CSChangeMemberTitleReq
+uid (Ruid
+title (Rtitle
+pre_uid (RpreUid
+guild_id (RguildId"V
+SCChangeMemberTitleAck
+error (Rerror
+uid (Ruid
+title (Rtitle"}
+SCChangeMemberTitleNtf
+guild_id (RguildId6
+uid_list (2.serverproto.KeyValueType64RuidList
+uid (Ruid"^
+CSGuildRenameReq
+
+guild_name (	R	guildName
+guild_id (RguildId
+uid (Ruid"G
+SCGuildRenameAck
+error (Rerror
+
+guild_name (	R	guildName"d
+CSGuildReNoticeReq!
+guild_notice (	RguildNotice
+guild_id (RguildId
+uid (Ruid"M
+SCGuildReNoticeAck
+error (Rerror!
+guild_notice (	RguildNotice"ƒ
+CSSetGuildInfoReq
+guild_id (RguildId
+guild_badge (R
+guildBadge
+
+join_level (R	joinLevel
+	join_type (RjoinType%
+recruit_notice (	RrecruitNotice
+uid (Ruid"≠
+SCSetGuildInfoAck
+error (Rerror
+guild_badge (R
+guildBadge
+
+join_level (R	joinLevel
+	join_type (RjoinType%
+recruit_notice (	RrecruitNotice"I
+CSGuildLogInfoReq
+guild_id (RguildId
+log_time (RlogTime"S
+SCGuildLogInfoAck'
+log (2.serverproto.GuildLogRlog
+is_end (RisEnd"B
+CSGuildApplyDataReq
+uid (Ruid
+guild_id (RguildId"F
+SCGuildApplyDataAck
+error (Rerror
+uid_list (RuidList"≤
+CSApplyInfoHandleReq1
+apply (2.serverproto.KeyValueType64Rapply
+handle_type (R
+handleType
+guild_id (RguildId
+uid (Ruid
+uid_list (RuidList"†
+SCApplyInfoHandleAck
+error (Rerror
+guild_id (RguildId
+handle_type (R
+handleType6
+uid_list (2.serverproto.KeyValueType64RuidList"ò
+SCApplyInfoHandleNtf!
+apply_result (RapplyResult
+uid (Ruid
+guild_id (RguildId0
+data (2.serverproto.GuildNotifyDataRdata"=
+CSGuildInfoReq
+guild_id (RguildId
+uid (Ruid"™
+SCGuildInfoAck
+error (Rerror5
+
+guild_Base (2.serverproto.GuildBaseR	guildBase5
+	mem_brief (2.serverproto.MemberBriefRmemBrief
+apply (Rapply"D
+CSGetSelfGuildInfoReq
+guild_id (RguildId
+uid (Ruid"Ø
+SCGetSelfGuildInfoAck
+error (Rerror5
+
+guild_Base (2.serverproto.GuildBaseR	guildBase5
+	mem_brief (2.serverproto.MemberBriefRmemBrief5
+
+role_guild (2.serverproto.RoleGuildR	roleGuild!
+total_active (RtotalActive
+
+apply_list (R	applyList,
+guild_battle_state (RguildBattleState(
+next_state_begin (RnextStateBegin
+cp_num	 (RcpNum*
+guild_battle_rank
+ (RguildBattleRank"L
+CSGuildMemberInfoReq
+guild_id (RguildId
+uid_list (RuidList"Å
+SCGuildMemberInfoAck
+error (Rerror
+guild_id (RguildId8
+member_data (2.serverproto.MemberInfoR
+memberData"H
+CSRecommendGuildInfoReq
+uid (Ruid
+	req_count (RreqCount"a
+SCRecommendGuildInfoAck
+error (Rerror0
+data (2.serverproto.GuildNotifyDataRdata"E
+CSOnlinePlayerGuildReq
+uid (Ruid
+guild_id (RguildId"‹
+SCOnlinePlayerGuildAck0
+data (2.serverproto.GuildNotifyDataRdata
+	next_join (RnextJoin
+boss (Rboss7
+msgRec (2.serverproto.MessageContentInfoRmsgRec&
+in_guild_battle (RinGuildBattle"I
+CSSearchGuildReq#
+search_string (	RsearchString
+uid (Ruid"
+SCSearchGuildAck
+error (Rerror#
+search_string (	RsearchString0
+data (2.serverproto.GuildNotifyDataRdata"J
+SCQuitGuildCDNtf
+quit_num (RquitNum
+	next_join (RnextJoin"/
+CSGuildBossInfoReq
+guild_id (RguildId"¡
+SCGuildBossInfoAck
+error (Rerror7
+	boss_data (2.serverproto.GuildBossDataRbossData8
+
+boss_fight (2.serverproto.KeyValueTypeR	bossFight"
+elite_boss_cd (ReliteBossCd"b
+CSGuildBossLogReq
+log_time (RlogTime
+boss_id (RbossId
+guild_id (RguildId"é
+SCGuildBossLogAck
+error (Rerror
+boss_id (RbossId3
+logs (2.serverproto.GuildBossLogDetialRlogs
+is_end (RisEnd"ò
+CSGuildBossChallengeReq
+boss_id (RbossId
+damage (Rdamage
+battle_time (R
+battleTime
+guild_id (RguildId
+uid (Ruid"ì
+SCGuildBossChallengeAck
+error (Rerror
+boss_id (RbossId1
+reward (2.serverproto.KeyValueTypeRreward
+damage (Rdamage"\
+CSGuildBossSummonReq
+boss_id (RbossId
+guild_id (RguildId
+uid (Ruid"™
+SCGuildBossSummonAck
+error (Rerror
+boss_id (RbossId!
+guild_active (RguildActive
+fight_start (R
+fightStart
+fight_count (R
+fightCount"O
+CSGuildBossExtraRewardReq
+boss_id (RbossId
+guild_id (RguildId"ù
+SCGuildBossExtraRewardAck
+error (Rerror
+boss_id (RbossId
+max_dam (RmaxDam8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief"b
+SCGuildNameChangeNtf
+guild_id (RguildId
+
+guild_name (	R	guildName
+uid (Ruid"k
+SCGuildBossChangeNtf
+guild_id (RguildId
+boss_id (RbossId
+fight_count (R
+fightCount"?
+SCGuildBattleStageNtf&
+in_guild_battle (RinGuildBattle"
+CSGuildBattleCPRankReq"Ø
+SCGuildBattleCPRankAck
+error (Rerror3
+cp_list (2.serverproto.GuildBattleCPRcpList&
+self_guild_rank (RselfGuildRank"
+self_guild_cp (RselfGuildCp"
+CSGuildBattleCountPartReq"Ñ
+SCGuildBattleCountPartAck
+error (Rerror
+champion (Rchampion
+cur_stge (RcurStge-
+tournament_prepare (RtournamentPrepare)
+tournament_begin (RtournamentBegin%
+tournament_end (RtournamentEnd-
+semifinals_prepare (RsemifinalsPrepare)
+semifinals_begin (RsemifinalsBegin%
+semifinals_end	 (RsemifinalsEnd%
+finals_prepare
+ (RfinalsPrepare!
+finals_begin (RfinalsBegin
+
+finals_end (R	finalsEnd/
+data (2.serverproto.CountTableDataRdata"C
+CSGuildBattleMvpInfoReq(
+guild_battle_idx (RguildBattleIdx"Õ
+SCGuildBattleMvpInfoAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx6
+detail (2.serverproto.GuildBattleDetailRdetail:
+
+count_part (2.serverproto.CountTableDataR	countPart"{
+CSGuildBattleMvpDetailReq
+mvp_type (RmvpType
+req_rank (RreqRank(
+guild_battle_idx (RguildBattleIdx"™
+SCGuildBattleMvpDetailAck
+mvp_type (RmvpType-
+mvp (2.serverproto.GuildBattleMvpRmvp
+req_rank (RreqRank(
+guild_battle_idx (RguildBattleIdx"d
+CSGuildBattleInfoReq(
+guild_battle_idx (RguildBattleIdx"
+self_guild_id (RselfGuildId"®
+SCGuildBattleInfoAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx*
+battle_start_time (RbattleStartTime&
+battle_end_time (RbattleEndTimeE
+battle_data_list (2.serverproto.KeyValueType64RbattleDataList=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfDataJ
+challenge_pos_data (2.serverproto.GuildPosIdxDataRchallengePosData*
+buy_challenge_num (RbuyChallengeNum"Ø
+CSGuildBattleSettingReq(
+guild_battle_idx (RguildBattleIdx%
+auto_challenge (RautoChallenge
+auto_reborn (R
+autoReborn"
+self_guild_id (RselfGuildId"ò
+SCGuildBattleSettingAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData"l
+CSGuildBattleBuyChallengeReq(
+guild_battle_idx (RguildBattleIdx"
+self_guild_id (RselfGuildId"…
+SCGuildBattleBuyChallengeAck
+error (Rerror=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData*
+buy_challenge_num (RbuyChallengeNum(
+guild_battle_idx (RguildBattleIdx"f
+CSGuildBattleRebornReq(
+guild_battle_idx (RguildBattleIdx"
+self_guild_id (RselfGuildId"ó
+SCGuildBattleRebornAck
+error (Rerror=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData(
+guild_battle_idx (RguildBattleIdx"|
+CSGuildBattleRankListReq(
+guild_battle_idx (RguildBattleIdx
+	rank_type (RrankType
+page_idx (RpageIdx"◊
+SCGuildBattleRankListAck
+error (Rerror
+page_idx (RpageIdx(
+guild_battle_idx (RguildBattleIdxB
+rank_data_list (2.serverproto.GuildBattleRankRrankDataListE
+battle_data_list (2.serverproto.KeyValueType64RbattleDataList
+	is_finish (RisFinish
+	win_guild (RwinGuild
+	rank_type (RrankType"h
+CSGuildBattlePosIdxListReq(
+guild_battle_idx (RguildBattleIdx 
+pos_idx_list (R
+posIdxList"û
+SCGuildBattlePosIdxListAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx@
+pos_data_list (2.serverproto.GuildPosIdxDataRposDataList"^
+CSGuildBattleLogReq(
+guild_battle_idx (RguildBattleIdx
+
+begin_time (R	beginTime"§
+SCGuildBattleLogAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx6
+log_list (2.serverproto.GuildBattleLogRlogList
+is_end (RisEnd"^
+CSGuildBattleChallengeReq(
+guild_battle_idx (RguildBattleIdx
+pos_idx (RposIdx"Í
+SCGuildBattleChallengeAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx
+pos_idx (RposIdx9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfoJ
+challenge_pos_data (2.serverproto.GuildPosIdxDataRchallengePosDataA
+fight_buff_list (2.serverproto.KeyValueTypeRfightBuffList?
+self_buff_list (2.serverproto.KeyValueTypeRselfBuffList=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData*
+buy_challenge_num	 (RbuyChallengeNum"…
+SCGuildBattleChallengeNtf(
+guild_battle_idx (RguildBattleIdx
+pos_idx (RposIdx=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData*
+buy_challenge_num (RbuyChallengeNum"§
+CSGuildBattleChallengeResultReq(
+guild_battle_idx (RguildBattleIdx
+battle_time (R
+battleTime
+pos_idx (RposIdx
+pos_uid (RposUid#
+battle_result (RbattleResult"
+self_guild_id (RselfGuildId;
+bf_info (2".serverproto.CommonPlayerBriefInfoRbfInfo"a
+SCGuildBattleChallengeResultAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx"¯
+SCGuildBattleDataChangeNtf
+ntf_uid (RntfUid(
+guild_battle_idx (RguildBattleIdx7
+pos_data (2.serverproto.GuildPosIdxDataRposData=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData
+from_social (R
+fromSocial"b
+CSGuildBattleChallengePingReq(
+guild_battle_idx (RguildBattleIdx
+pos_idx (RposIdx"5
+SCGuildBattleChallengePingAck
+error (Rerror"B
+CSGuildBattlePKDataReq(
+guild_battle_idx (RguildBattleIdx"ü
+SCGuildBattlePKDataAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdxE
+battle_data_list (2.serverproto.KeyValueType64RbattleDataList"e
+CSGuildBattleBuyBuffReq(
+guild_battle_idx (RguildBattleIdx 
+buff_id_list (R
+buffIdList"ò
+SCGuildBattleBuyBuffAck
+error (Rerror(
+guild_battle_idx (RguildBattleIdx=
+	self_data (2 .serverproto.GuildBattleSelfDataRselfData"ê
+GuildDemonRank
+uuid (Ruuid
+rank (Rrank
+damage (Rdamage
+
+guild_name (	R	guildName
+guild_badge (R
+guildBadge"s
+GuildDemonGuildRank0
+data (2.serverproto.GuildNotifyDataRdata
+rank (Rrank
+damage (Rdamage"B
+CSGuildDemonInfoReq
+guild_id (RguildId
+uid (Ruid"“
+SCGuildDemonInfoAck
+demon_id (RdemonId 
+next_up_time (R
+nextUpTime
+demon_level (R
+demonLevel
+end_time (RendTime(
+left_fight_count (RleftFightCount$
+left_buy_count (RleftBuyCount*
+total_boss_damage (RtotalBossDamage
+damage (Rdamage
+
+mvp_damage	 (R	mvpDamage?
+	mvp_brief
+ (2".serverproto.CommonPlayerBriefInfoRmvpBrief5
+	rank_list (2.serverproto.DemonDamageRrankList
+req_uid (RreqUid"I
+CSGuildDemonFightReq
+demon_id (RdemonId
+damage (Rdamage"Ë
+SCGuildDemonFightAck
+error (Rerror
+demon_id (RdemonId
+fight_count (R
+fightCount!
+total_damage (RtotalDamage
+self_damage (R
+selfDamage:
+base_reward (2.serverproto.KeyValueTypeR
+baseReward"[
+CSGuildDemonGuildRankReq
+page (Rpage
+guild_id (RguildId
+uid (Ruid"Ì
+SCGuildDemonGuildRankAck
+error (Rerror
+page (Rpage=
+	rank_list (2 .serverproto.GuildDemonGuildRankRrankList?
+
+self_guild (2 .serverproto.GuildDemonGuildRankR	selfGuild
+is_end (RisEnd
+uid (Ruid"Y
+CSGuildDemonMVPRankReq
+page (Rpage
+guild_id (RguildId
+uid (Ruid"©
+SCGuildDemonMVPRankAck
+error (Rerror
+page (Rpage8
+	rank_list (2.serverproto.GuildDemonRankRrankListA
+self_guild_mvp (2.serverproto.GuildDemonRankRselfGuildMvp?
+	mvp_brief (2".serverproto.CommonPlayerBriefInfoRmvpBrief
+is_end (RisEnd
+uid (Ruid"?
+CSGuildDemonBuyFightCountReq
+fight_count (R
+fightCount"Ñ
+SCGuildDemonBuyFightCountAck
+error (Rerror$
+left_buy_count (RleftBuyCount(
+left_fight_count (RleftFightCount"È
+SCPetChangeNtf/
+pet_list (2.serverproto.PetDataRpetList 
+del_pet_list (R
+delPetList@
+pet_manual_list (2.serverproto.PetManualSTRpetManualListB
+assist_pet_list (2.serverproto.AssistIdxDataRassistPetList"(
+CSPetLevelUpReq
+pet_id (RpetId">
+SCPetLevelUpAck
+error (Rerror
+pet_id (RpetId"C
+CSPetAdvanceReq
+pet_id (RpetId
+pet_list (RpetList"'
+SCPetAdvanceAck
+error (Rerror"M
+CSPetSkillLevelUpReq
+pet_id (RpetId
+cost_pet_id (R	costPetId"^
+SCPetSkillLevelUpAck
+error (Rerror
+pet_id (RpetId
+skill_id (RskillId"3
+CSPetDecomposeReq
+pet_id_list (R	petIdList"a
+SCPetDecomposeAck
+error (Rerror6
+	item_list (2.serverproto.KeyValueTypeRitemList"
+CSPetBondListReq"£
+SCPetBondListAck
+error (Rerror5
+	bond_list (2.serverproto.PetBondDataRbondListB
+uid_name_list (2.serverproto.KeyValueType64StrRuidNameList"I
+SCPetBondListNtf5
+	bond_list (2.serverproto.PetBondDataRbondList"8
+CSPetBondAssistListReq
+bond_cfg_id (R	bondCfgId"ã
+SCPetBondAssistListAck
+error (Rerror
+bond_cfg_id (R	bondCfgId;
+bond_pet_list (2.serverproto.AssistDataRbondPetList"T
+CSPetBondActiveReq>
+bond_data_list (2.serverproto.PetBondDataRbondDataList"Æ
+SCPetBondActiveAck
+error (Rerror>
+bond_data_list (2.serverproto.PetBondDataRbondDataListB
+uid_name_list (2.serverproto.KeyValueType64StrRuidNameList"0
+CSPetAssistReq
+pet_id_list (R	petIdList"c
+SCPetAssistAck
+error (Rerror;
+assist_list (2.serverproto.AssistIdxDataR
+assistList"L
+CSPetBattleReq:
+battle_list (2.serverproto.KeyValueTypeR
+battleList"&
+SCPetBattleAck
+error (Rerror"o
+CSPetManualRewardReq
+
+pet_cfg_id (RpetCfgId"
+pet_adv_level (RpetAdvLevel
+pet_id (RpetId"Ü
+SCPetManualRewardAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+
+pet_cfg_id (RpetCfgId"6
+CSPetAdvAchievementReq
+
+pet_cfg_id (RpetCfgId"±
+SCPetAdvAchievementAck
+error (Rerror
+
+pet_cfg_id (RpetCfgId8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief)
+achievement_time (RachievementTime"
+CSPetActivityReq"˛
+SCPetActivityAck
+error (Rerror
+	self_rank (RselfRank
+
+self_score (R	selfScore
+end_time (RendTime'
+challeng_reward (RchallengReward
+rank_reward (R
+rankReward3
+top_data (2.serverproto.RushPetDataRtopData"*
+CSPetActivityRankReq
+page (Rpage"u
+SCPetActivityRankAck
+error (Rerror
+page (Rpage3
+top_data (2.serverproto.RushPetDataRtopData"l
+SCPetEquipDataNtf?
+pet_equip_list (2.serverproto.PetEquipDataRpetEquipList
+ignore (Rignore"8
+CSPetEquipLevelUpReq 
+pet_equip_id (R
+petEquipId"d
+SCPetEquipLevelUpAck
+error (Rerror6
+	pet_equip (2.serverproto.PetEquipDataRpetEquip"`
+CSPetEquipUpReq
+pet_id (RpetId6
+	slot_list (2.serverproto.KeyValueTypeRslotList"v
+SCPetEquipUPAck
+error (Rerror
+pet_id (RpetId6
+	slot_list (2.serverproto.KeyValueTypeRslotList"I
+CSPetEquipDownReq
+pet_id (RpetId
+
+slot_index (R	slotIndex"_
+SCPetEquipDownAck
+error (Rerror
+pet_id (RpetId
+
+slot_index (R	slotIndex"4
+CSPetDetailInfoReq
+pet_id_list (R	petIdList"N
+SCPetDetailInfoAck8
+pet_info_list (2.serverproto.PetDataRpetInfoList"f
+SCPetQiyueDataNtf
+hero_id (RheroId8
+
+qiyue_info (2.serverproto.PetQiyueInfoR	qiyueInfo"2
+CSPetQiyueSlotUnlockReq
+hero_id (RheroId"H
+SCPetQiyueSlotUnlockAck
+error (Rerror
+hero_id (RheroId"`
+CSPetQiyueSlotInReq
+hero_id (RheroId
+slot_idx (RslotIdx
+pet_id (RpetId"_
+SCPetQiyueSlotInAck
+error (Rerror
+hero_id (RheroId
+slot_idx (RslotIdx"J
+CSPetQiyueSlotOutReq
+hero_id (RheroId
+slot_idx (RslotIdx"`
+SCPetQiyueSlotOutAck
+error (Rerror
+hero_id (RheroId
+slot_idx (RslotIdx"
+CSPetQiyueBattlePetAttrReq"m
+SCPetQiyueBattlePetAttrAck
+error (Rerror9
+
+actor_list (2.serverproto.ActorAttrTypeR	actorList"|
+SCExpeditionChangeNtfF
+expedition_info (2.serverproto.BattleExpeditionRexpeditionInfo
+	day_reset (RdayReset"F
+CSExpeditionChallengePreReq'
+expedition_type (RexpeditionType"3
+SCExpeditionChallengePreAck
+error (Rerror"◊
+CSExpeditionChallengeReq'
+expedition_type (RexpeditionType!
+battle_level (RbattleLevelH
+hero_info_list (2".serverproto.BattleExpeditionActorRheroInfoListQ
+boss_change_hp_list (2".serverproto.BattleExpeditionActorRbossChangeHpList
+battle_time (R
+battleTime
+
+battle_idx (R	battleIdx
+flag (Rflag"a
+SCExpeditionChallengeAck
+error (Rerror
+flag (Rflag
+	buff_list (RbuffList"A
+CSExpeditionSelectBuffReq$
+select_buff_id (RselectBuffId"1
+SCExpeditionSelectBuffAck
+error (Rerror"[
+CSExpeditionRewardReq'
+expedition_type (RexpeditionType
+boss_idx (RbossIdx"r
+SCExpeditionRewardAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"E
+CSExpeditionBattleHeroReq(
+battle_hero_list (RbattleHeroList"1
+SCExpeditionBattleHeroAck
+error (Rerror"D
+CSExpeditionCallForHelpReq&
+assist_help_uid (RassistHelpUid"2
+SCExpeditionCallForHelpAck
+error (Rerror"y
+SCExpeditionCallForHelpNtf!
+assist_state (RassistState8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief"Å
+CSExpeditionHelpReq"
+be_helped_uid (RbeHelpedUid
+msg_type (RmsgType+
+help_msg_send_time (RhelpMsgSendTime"p
+SCExpeditionHelpAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList";
+CSExpeditionScoreRankListReq
+	start_idx (RstartIdx"÷
+SCExpeditionScoreRankListAck
+error (Rerror<
+	rank_list (2.serverproto.ExpeditionRankInfoRrankListE
+self_rank_info (2.serverproto.ExpeditionRankInfoRselfRankInfo
+	start_idx (RstartIdx"D
+CSExpeditionPassRewardReq'
+expedition_type (RexpeditionType"v
+SCExpeditionPassRewardAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"ù
+SCActivitiesStartupNtfI
+open_activity_list (2.serverproto.ActivitiesDataRopenActivityList'
+cur_day_end_time (RcurDayEndTimeO
+activity_data_list (2!.serverproto.ActivitiesDetailDataRactivityDataList*
+first_charge_time (RfirstChargeTime9
+first_charge_reward_state (RfirstChargeRewardStateW
+unlock_charge_list (2).serverproto.ActivitiesUnlockRechargeDataRunlockChargeList"[
+SCActivitiesOpenListNtf@
+activity_list (2.serverproto.ActivitiesDataRactivityList"ë
+SCActivitiesChangeNtfO
+activity_data_list (2!.serverproto.ActivitiesDetailDataRactivityDataList'
+cur_day_end_time (RcurDayEndTime"m
+CSActivitiesRewardReq
+activity_id (R
+activityId
+param (Rparam
+
+reward_num (R	rewardNum"ì
+SCActivitiesRewardAck
+activity_id (R
+activityId
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"V
+CSActivitiesScoreRewardReq
+activity_id (R
+activityId
+box_idx (RboxIdx"ò
+SCActivitiesScoreRewardAck
+activity_id (R
+activityId
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"s
+SCActivitiesDiscountsNtfW
+discount_data_list (2).serverproto.ActivitiesUnlockRechargeDataRdiscountDataList""
+ CSActivitiesFirstChargeRewardReq"}
+ SCActivitiesFirstChargeRewardAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"â
+ SCActivitiesFirstChargeChangeNtf9
+first_charge_reward_state (RfirstChargeRewardState*
+first_charge_time (RfirstChargeTime"F
+#CSActivitiesCollectionServerDataReq
+activity_id (R
+activityId"î
+#SCActivitiesCollectionServerDataAck
+error (Rerror
+activity_id (R
+activityId6
+	data_list (2.serverproto.KeyValueTypeRdataList"ç
+CSActivitiesLikabilityRewardReq
+activity_id (R
+activityId
+item_cfg_id (R	itemCfgId)
+likability_level (RlikabilityLevel"ù
+SCActivitiesLikabilityRewardAck
+error (Rerror
+activity_id (R
+activityIdC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"à
+CSActivitiesExchangeReq
+
+reward_idx (R	rewardIdx
+activity_id (R
+activityId-
+data (2.serverproto.ExchangeInfoRdata"î
+SCActivitiesExchangeAck
+error (Rerror
+
+reward_idx (R	rewardIdx
+activity_id (R
+activityId#
+exchange_time (RexchangeTime"{
+CSActivitiesWordNoticeSetReq
+activity_id (R
+activityId
+
+collect_id (R	collectId
+	no_notice (RnoNotice"ë
+SCActivitiesWordNoticeSetAck
+error (Rerror
+activity_id (R
+activityId
+
+collect_id (R	collectId
+	no_notice (RnoNotice"<
+CSActivityWheelRefreshReq
+activity_id (R
+activityId"1
+SCActivityWheelRefreshAck
+error (Rerror"?
+CSActivityWheelOpenRewardReq
+activity_id (R
+activityId"4
+SCActivityWheelOpenRewardAck
+error (Rerror"Z
+CSActivityWheelRewardReq
+activity_id (R
+activityId
+
+reward_all (R	rewardAll"í
+SCActivityWheelRewardAck
+error (Rerror
+
+reward_all (R	rewardAllA
+reward_list (2 .serverproto.WheelRewardItemInfoR
+rewardList"@
+CSActivityWheelCloseRewardReq
+activity_id (R
+activityId"5
+SCActivityWheelCloseRewardAck
+error (Rerror"Y
+CSActivitySummonReq
+activity_id (R
+activityId!
+summon_count (RsummonCount"ë
+SCActivitySummonAck
+error (Rerror
+activity_id (R
+activityId
+
+draw_count (R	drawCount2
+	item_list (2.serverproto.DrawItemRitemList4
+
+extra_item (2.serverproto.DrawItemR	extraItem
+
+draw_times (R	drawTimes
+	add_point (RaddPoint"6
+CSActivitySignInReq
+activity_id (R
+activityId"é
+SCActivitySignInAck
+error (Rerror
+activity_id (R
+activityId:
+reward_list (2.serverproto.KeyValueTypeR
+rewardListA
+ext_reward_list (2.serverproto.KeyValueTypeRextRewardList$
+next_sign_time (RnextSignTime
+	sign_days (RsignDays"^
+SCInvitationStartupNtfD
+invitation_info (2.serverproto.RoleInvitationRinvitationInfo"ã
+SCInvitationChangNtfD
+invitation_info (2.serverproto.RoleInvitationRinvitationInfo-
+del_member_uid_list (RdelMemberUidList"
+CSInvitationNumberReq"-
+SCInvitationNumberAck
+error (Rerror"L
+CSInvitationNumberUserInfoReq+
+invitation_number (RinvitationNumber"é
+SCInvitationNumberUserInfoAck
+error (Rerror8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief
+
+member_num (R	memberNum"t
+CSInvitationBeToMemberReq8
+master_invitation_number (RmasterInvitationNumber
+
+master_uid (R	masterUid"1
+SCInvitationBeToMemberAck
+error (Rerror">
+CSInvitationClickReq&
+member_uid_list (RmemberUidList"q
+SCInvitationClickAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList";
+CSInvitationClickReplayReq
+
+master_uid (R	masterUid"w
+SCInvitationClickReplayAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"I
+CSInvitationDelMemberReq-
+del_member_uid_list (RdelMemberUidList"_
+SCInvitationDelMemberAck
+error (Rerror-
+del_member_uid_list (RdelMemberUidList"=
+CSInvitationTaskRewardReq 
+task_id_list (R
+taskIdList"ò
+SCInvitationTaskRewardAck
+error (Rerror 
+task_id_list (R
+taskIdListC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"a
+CSPayInfoGetReq
+goods_id (RgoodsId
+
+goods_type (R	goodsType
+count (Rcount"·
+SCPayInfoGetAck
+error (Rerror
+goods_id (RgoodsId
+
+goods_type (R	goodsType
+
+goods_name (	R	goodsName
+cp_order_id (R	cpOrderId
+amount (Ramount
+count (Rcount
+s_id (RsId"X
+SCPayInfoNtf%
+total_recharge (RtotalRecharge!
+day_recharge (RdayRecharge"
+CSPayInfoOrderOKListGetReq"a
+SCPayInfoOrderOKListGetAckC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"ú
+SCDaoChang100DataChangNtf7
+ntf_data (2.serverproto.RoleDaoChang100RntfDataF
+self_pos_data (2".serverproto.DaoChang100PosIdxDataRselfPosData";
+CSDaoChang100PlayerInfoReq
+
+player_uid (R	playerUid"Ω
+SCDaoChang100PlayerInfoAck
+error (Rerror
+
+player_uid (R	playerUidJ
+player_pos_data (2".serverproto.DaoChang100PosIdxDataRplayerPosData
+has_new_log (R	hasNewLog"4
+CSDaoChang100Req 
+pos_idx_list (R
+posIdxList"p
+SCDaoChang100Ack
+error (RerrorF
+pos_data_list (2".serverproto.DaoChang100PosIdxDataRposDataList"4
+CSDaoChang100LogReq
+
+begin_time (R	beginTime"z
+SCDaoChang100LogAck
+error (Rerror6
+log_list (2.serverproto.DaoChang100LogRlogList
+is_end (RisEnd"4
+CSDaoChang100ChallengeReq
+pos_idx (RposIdx"◊
+SCDaoChang100ChallengeAck
+error (Rerror
+pos_idx (RposIdx9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfoP
+challenge_pos_data (2".serverproto.DaoChang100PosIdxDataRchallengePosData"ô
+CSDaoChang100ChallengeResultReq
+battle_time (R
+battleTime
+pos_idx (RposIdx
+pos_uid (RposUid#
+battle_result (RbattleResult"
+CSDaoChang100TimeRewardReq"ç
+SCDaoChang100TimeRewardAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+
+reward_num (R	rewardNum"#
+!CSDaoChang100BuyChallengeCountReq"9
+!SCDaoChang100BuyChallengeCountAck
+error (Rerror"4
+CSDaoChang100SetTipsReq
+tip_desc (	RtipDesc"/
+SCDaoChang100SetTipsAck
+error (Rerror"B
+CSGiftRewardReq
+	gift_code (	RgiftCode
+uuid (Ruuid"w
+SCGiftRewardAck
+error (Rerror
+uuid (Ruuid:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"U
+SCDaoChang100WheelChangNtf7
+ntf_data (2.serverproto.RoleDaoChang100RntfData"
+CSDaoChang100WheelReq"-
+SCDaoChang100WheelAck
+error (Rerror"
+CSDaoChang100WheelRefreshReq"4
+SCDaoChang100WheelRefreshAck
+error (Rerror"!
+CSDaoChang100WheelOpenRewardReq"7
+SCDaoChang100WheelOpenRewardAck
+error (Rerror"<
+CSDaoChang100WheelRewardReq
+
+reward_all (R	rewardAll"ï
+SCDaoChang100WheelRewardAck
+error (Rerror
+
+reward_all (R	rewardAllA
+reward_list (2 .serverproto.WheelRewardItemInfoR
+rewardList""
+ CSDaoChang100WheelCloseRewardReq"8
+ SCDaoChang100WheelCloseRewardAck
+error (Rerror"
+CSDaoChang100WheelLogReq"P
+SCDaoChang100WheelLogAck4
+log_list (2.serverproto.WheelLogDataRlogList"P
+SCDaoChang100WheelLogNtf4
+log_list (2.serverproto.WheelLogDataRlogList"y
+SCCompetitionStarInfoNtf
+	cur_score (RcurScore
+
+next_final (R	nextFinal!
+before_first (RbeforeFirst"
+CSCompetitionStarInfoReq"F
+SCCompetitionStarInfoAck
+error (Rerror
+stars (Rstars";
+CSCompetitionStarDivineReq
+
+use_ticket (R	useTicket"r
+SCCompetitionStarDivineAck
+error (Rerror
+stars (Rstars
+star (Rstar
+light (Rlight"!
+CSCompetitionStarCloseRewardReq"â
+SCCompetitionStarCloseRewardAck
+error (Rerror
+stars (Rstars:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"
+CSAccOnlineRewardReq"h
+SCAccOnlineRewardAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"M
+CSCompetitionOnVoteReq!
+ticket_count (RticketCount
+uid (Ruid"Î
+SCCompetitionOnVoteAck
+error (Rerror
+uid (Ruid
+total_count (R
+totalCount6
+	vote_list (2.serverproto.FansRankDataRvoteList3
+detail (2.serverproto.PlayerShowDataRdetail:
+vote_target (2.serverproto.FansRankDataR
+voteTarget!
+ticket_count (RticketCount<
+reward_data (2.serverproto.KeyValueType64R
+rewardData"
+CSCompetitionSelfFansInfoReq"j
+SCCompetitionSelfFansInfoAck
+error (Rerror4
+fan_list (2.serverproto.FansVoteDataRfanList".
+CSCompetitionVoteRankReq
+page (Rpage"ì
+SCCompetitionVoteRankAck
+error (Rerror
+page (Rpage6
+	rank_data (2.serverproto.FansRankDataRrankData
+is_end (RisEnd"4
+CSCompetitionFansRewardRankReq
+page (Rpage"÷
+SCCompetitionFansRewardRankAck
+error (Rerror
+page (Rpage5
+	data_list (2.serverproto.FansBoxDataRdataList<
+reward_data (2.serverproto.KeyValueType64R
+rewardData
+is_end (RisEnd"T
+CSCompetitionFansGetRewardReq
+uid (Ruid!
+reward_level (RrewardLevel"«
+SCCompetitionFansGetRewardAck
+error (Rerror
+uid (Ruid!
+reward_level (RrewardLevel:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+reward_flag (R
+rewardFlag"/
+CSCompetitionFansDayRewardReq
+id (Rid"E
+SCCompetitionFansDayRewardAck
+error (Rerror
+id (Rid"5
+!CSCompetitionGetPlayerVoteRankReq
+uid (Ruid"z
+!SCCompetitionGetPlayerVoteRankAck
+error (Rerror?
+idol_rank_data (2.serverproto.FansRankDataRidolRankData"Ö
+CSGMCommandReq
+gm_cmd (	RgmCmd
+	gm_param1 (RgmParam1
+	gm_param2 (RgmParam2"
+gm_param_list (RgmParamList"'
+SCGMCommandAck
+gm_cmd (	RgmCmd"F
+SCVipChangeNtf
+	vip_level (RvipLevel
+vip_exp (RvipExp"K
+CSDrawCardReq
+	draw_type (RdrawType
+
+draw_count (R	drawCount"U
+DrawItem
+item_id (RitemId
+item_num (RitemNum
+is_new (RisNew"á
+SCDrawCardAck
+error (Rerror
+	draw_type (RdrawType
+
+draw_count (R	drawCount2
+	item_list (2.serverproto.DrawItemRitemList4
+
+extra_item (2.serverproto.DrawItemR	extraItem
+
+draw_times (R	drawTimes
+	add_point (RaddPoint"Ø
+RuneShopItem
+goods_id (RgoodsId
+end_time (RendTime
+buy_nums (RbuyNums
+	buy_limit (RbuyLimit
+	first_buy (RfirstBuy
+price (Rprice"K
+CSRuneShopInfoReq
+	shop_type (RshopType
+sub_shop (RsubShop"†
+SCRuneShopInfoAck
+	shop_type (RshopType
+sub_shop (RsubShop8
+
+goods_list (2.serverproto.RuneShopItemR	goodsList
+end_time (RendTime"ú
+SCRuneShopBuyItemNtf
+error (Rerror
+	shop_type (RshopType
+sub_shop (RsubShop6
+	shop_item (2.serverproto.RuneShopItemRshopItem"o
+SCRuneFreeRedChangeInfoNtf4
+rune_red (2.serverproto.KeyValueTypeRruneRed
+	limit_red (RlimitRed"j
+SCExploreExpChangeNtf
+	total_exp (RtotalExp
+
+MissionExp (R
+MissionExp
+level (Rlevel"
+CSExploreInfoReq"—
+SCExploreInfoAck
+	total_exp (RtotalExp
+level (Rlevel
+	startTime (R	startTime
+endTime (RendTime$
+nextStartTime (RnextStartTime
+
+missionExp (R
+missionExp
+curRoune (RcurRoune
+bUnlock (RbUnlock
+	fullAward	 (R	fullAward8
+
+draw_rewar
+ (2.serverproto.KeyValueTypeR	drawRewar"
+CSExploreExtraRewardReq"ß
+SCExploreExtraRewardAck
+error (Rerror
+	total_exp (RtotalExp
+mission_exp (R
+missionExp8
+
+award_item (2.serverproto.KeyValueTypeR	awardItem"K
+CSExploreRewardReq
+level (Rlevel
+reward_type (R
+rewardType"»
+SCExploreRewardAck
+error (Rerror
+type (Rtype
+level (Rlevel8
+
+award_item (2.serverproto.KeyValueTypeR	awardItem8
+
+draw_rewar (2.serverproto.KeyValueTypeR	drawRewar"¡
+SCPayForGoodsNtf
+
+goods_type (R	goodsType
+goods_id (RgoodsId
+	goods_num (RgoodsNum6
+	item_list (2.serverproto.KeyValueTypeRitemList
+cp_order_id (R	cpOrderId"E
+SCGMSyncAllPlayerNtf-
+players (2.serverproto.PlayerRplayers"N
+SCWebGMNoticeNtf:
+notice_info (2.serverproto.GMNoticeInfoR
+noticeInfo"/
+CSAntiCheatReq
+
+cheat_type (R	cheatType"&
+SCAntiCheatAck
+error (Rerror"
+CSQuestionRewardReq"p
+SCQuestionRewardAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"
+CSOnlineTimeRewardReq"r
+SCOnlineTimeRewardAck
+error (RerrorC
+reward_item_list (2.serverproto.KeyValueTypeRrewardItemList"ê
+SCOnlineTimeRewardNtf*
+total_online_time (RtotalOnlineTime!
+online_stamp (RonlineStamp(
+online_reward_id (RonlineRewardId"
+CSOnlineGetKeepSakeReq"Y
+SCOnlineGetKeepSakeAck?
+role_keep_sake (2.serverproto.RoleKeepSakeRroleKeepSake"5
+CSKeepSakeRankReq 
+keep_sake_id (R
+keepSakeId"ª
+SCKeepSakeRankAck
+error (Rerror 
+keep_sake_id (R
+keepSakeIdC
+player_info (2".serverproto.CommonPlayerBriefInfoR
+playerInfo)
+achievement_time (RachievementTime"8
+CSKeepSakeLevelUpReq 
+keep_sake_id (R
+keepSakeId",
+SCKeepSakeLevelUpAck
+error (Rerror"Ç
+SCKeepSakeChangeNtf2
+	keep_sake (2.serverproto.KeepSakeRkeepSake7
+	materials (2.serverproto.KeyValueTypeR	materials"l
+SCCrossYuanHangTrialDataNtfM
+yuanhangtrial_data (2.serverproto.RoleYuanHangTrialRyuanhangtrialData"?
+'CSCrossYuanHangTrialRefreshTrialTypeReq
+force (Rforce"?
+'SCCrossYuanHangTrialRefreshTrialTypeAck
+error (Rerror"
+CSCrossYuanHangTrialReq"n
+SCCrossYuanHangTrialAck
+error (Rerror=
+
+trial_data (2.serverproto.YuanHangTrialDataR	trialData"
+CSCrossYuanHangTrialRewardReq"q
+SCCrossYuanHangTrialRewardAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList"|
+ CSCrossYuanHangTrialChallengeReq#
+challenge_uid (RchallengeUid3
+challenge_uid_end_time (RchallengeUidEndTime"Õ
+ SCCrossYuanHangTrialChallengeAck
+error (Rerror#
+challenge_uid (RchallengeUid3
+challenge_uid_end_time (RchallengeUidEndTime9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"≥
+&CSCrossYuanHangTrialChallengeResultReq#
+challenge_uid (RchallengeUid3
+challenge_uid_end_time (RchallengeUidEndTime
+
+fight_time (R	fightTime
+win (Rwin"¥
+&SCCrossYuanHangTrialChallengeResultAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+	old_score (RoldScore
+	new_score (RnewScore">
+CSCrossYuanHangTrialRankListReq
+	start_idx (RstartIdx"È
+SCCrossYuanHangTrialRankListAck
+error (Rerror
+	start_idx (RstartIdx
+	self_rank (RselfRank
+
+self_score (R	selfScore
+
+total_rank (R	totalRank8
+	rank_list (2.serverproto.CommonRankInfoRrankList"9
+CSCrossYuanHangTrialViewListReq
+notify (Rnotify"
+SCCrossYuanHangTrialViewListAck
+error (RerrorF
+trial_view_list (2.serverproto.YuanHangTrialDataRtrialViewList"$
+"CSCrossYuanHangTrialViewListOutReq"i
+SCCrossYuanHangTrialViewListNtfF
+trial_view_list (2.serverproto.YuanHangTrialDataRtrialViewList"`
+CSCrossYuanHangTrialInfoReq
+	trial_uid (RtrialUid$
+trial_end_time (RtrialEndTime"è
+SCCrossYuanHangTrialInfoAck
+error (Rerror=
+
+trial_data (2.serverproto.YuanHangTrialDataR	trialData
+	nick_name (	RnickName"7
+CSCrossYuanHangTrialLogReq
+log_time (RlogTime"á
+SCCrossYuanHangTrialLogAck
+error (Rerror<
+log_list (2!.serverproto.YuanHangTrialLogDataRlogList
+is_end (RisEnd"
+CSCrossTopTowerFightListReq"x
+SCCrossTopTowerFightListAck
+error (RerrorC
+toptower_data (2.serverproto.RoleCrossTopTowerRtoptowerData":
+CSCrossTopTowerChallengeReq
+	fight_idx (RfightIdx"v
+SCCrossTopTowerChallengeAck
+error (RerrorA
+
+fight_info (2".serverproto.TopTowerFightRoleInfoR	fightInfo"B
+#CSCrossTopTowerChallengeViewInfoReq
+	fight_idx (RfightIdx"~
+#SCCrossTopTowerChallengeViewInfoAck
+error (RerrorA
+
+fight_info (2".serverproto.TopTowerFightRoleInfoR	fightInfo"W
+!CSCrossTopTowerChallengeResultReq
+is_win (RisWin
+	fight_idx (RfightIdx"∏
+!SCCrossTopTowerChallengeResultAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardListA
+
+fight_info (2".serverproto.TopTowerFightRoleInfoR	fightInfo"9
+CSCrossTopTowerForceWinReq
+	fight_idx (RfightIdx"±
+SCCrossTopTowerForceWinAck
+error (Rerror:
+reward_list (2.serverproto.KeyValueTypeR
+rewardListA
+
+fight_info (2".serverproto.TopTowerFightRoleInfoR	fightInfo"S
+"CSCrossTopTowerForceWinRankListReq
+uid (Ruid
+	start_idx (RstartIdx"÷
+"SCCrossTopTowerForceWinRankListAck
+	start_idx (RstartIdx
+	self_rank (RselfRank
+
+self_score (R	selfScore
+
+total_rank (R	totalRank8
+	rank_list (2.serverproto.CommonRankInfoRrankList"<
+CSGCrossGetServerStateReq
+server_type (R
+serverType"ë
+SCGCrossGetServerStateAck
+error (Rerror
+server_type (R
+serverType=
+server_list (2.serverproto.ServerStateInfoR
+serverList"°
+CSGCrossPlayerEnterMapReq
+map_type (RmapType
+line_num (RlineNum&
+pos (2.serverproto.Vector3Rpos&
+dir (2.serverproto.Vector3Rdir"Ö
+SCGCrossPlayerEnterMapAck
+error (Rerror
+line_num (RlineNum7
+	self_info (2.serverproto.UnitPosAndDirRselfInfo"C
+CSGCrossPlayerLeaveMapReq&
+pos (2.serverproto.Vector3Rpos"±
+CSGCrossPlayerMapSyncPosReq&
+pos (2.serverproto.Vector3Rpos&
+dir (2.serverproto.Vector3Rdir 
+cur_space_id (R
+curSpaceId 
+is_on_ground (R
+isOnGround"_
+SCGCrossPlayerMapSyncPosNtf@
+unit_info_list (2.serverproto.UnitPosAndDirRunitInfoList"b
+CSGCrossPlayerMapSyncParamReq&
+pos (2.serverproto.Vector3Rpos
+param_id (RparamId"a
+SCGCrossPlayerMapSyncParamNtf@
+unit_info_list (2.serverproto.UnitPosAndDirRunitInfoList"Z
+SCGCrossPlayerEnterNtf@
+unit_info_list (2.serverproto.UnitPosAndDirRunitInfoList"Z
+SCGCrossPlayerLeaveNtf@
+unit_info_list (2.serverproto.UnitPosAndDirRunitInfoList"<
+CSGCrossPlayerShowInfoReq
+player_list (R
+playerList"^
+SCGCrossPlayerShowInfoNtfA
+show_info_list (2.serverproto.PlayerShowInfoRshowInfoList"à
+ClientParamInfo!
+device_model (	RdeviceModel#
+device_height (RdeviceHeight!
+device_width (RdeviceWidth
+os_name (	RosName
+os_ver (	RosVer
+mac_addr (	RmacAddr
+udid (	Rudid
+isp (	Risp
+network	 (	Rnetwork
+app_channel
+ (	R
+appChannel
+app_ver (	RappVer
+trans_id (	RtransId'
+unisdk_deviceid (	RunisdkDeviceid
+is_emulator (R
+isEmulator
+is_root (RisRoot
+
+account_id (	R	accountId#
+old_accountid (	RoldAccountid
+IMEI (	RIMEI!
+country_code (	RcountryCode
+enter_sn (	RenterSn
+oaid (	Roaid
+
+engine_ver (	R	engineVer"Q
+CSClientParamNtf=
+client_info (2.serverproto.ClientParamInfoR
+clientInfo"Ö
+ActorAttrType
+is_hero_pet (R	isHeroPet
+actor_id (RactorId9
+	attr_list (2.serverproto.KeyValueFloat32RattrList"r
+CSActorAttrGetReq"
+is_all_battle (RisAllBattle9
+
+actor_list (2.serverproto.ActorAttrTypeR	actorList"m
+SCActorAttrGetAck
+error (RerrorB
+actor_attr_list (2.serverproto.ActorAttrTypeRactorAttrList"W
+SCActorAttrGetNtfB
+actor_attr_list (2.serverproto.ActorAttrTypeRactorAttrList"'
+CSConverSkillExpReq
+cnt (Rcnt"+
+SCConverSkillExpAck
+error (Rerror"<
+SCHeadUpdateNtf)
+head (2.serverproto.HeadDataRhead"L
+CSHeadOperateReq 
+operateType (RoperateType
+headId (RheadId"b
+SCHeadOperateAck 
+operateType (RoperateType
+headId (RheadId
+error (Rerror"
+CSHeadDataReq"
+SCHeadDataAck"K
+CSWishBoxUseReq
+item_id (RitemId
+select_item (R
+selectItem"=
+SCWishBoxUseAck
+error (Rerror
+index (Rindex"
+CSWishUnlockSlotReq"+
+SCWishUnlockSlotAck
+error (Rerror"%
+CSWishSlotReq
+index (Rindex"ú
+SCWishSlotReqAck8
+
+award_item (2.serverproto.KeyValueTypeR	awardItem8
+
+lucky_item (2.serverproto.KeyValueTypeR	luckyItem
+error (Rerror"B
+SCUpdateWishSlotNtf+
+slots (2.serverproto.WishSlotRslots"S
+SCCombineServerOnlineNtf
+error (Rerror!
+combine_time (RcombineTime"
+CSCombineServerInfoReq"i
+SCCombineServerInfoAck
+error (Rerror!
+combine_time (RcombineTime
+notice (	Rnoticebproto3

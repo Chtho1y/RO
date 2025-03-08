@@ -1,0 +1,1558 @@
+
+ÃŸ
+
+user.protoserverproto"∏
+AccountRole
+open_id (	RopenId
+platform (	Rplatform
+uid (Ruid%
+phone_platform (RphonePlatform#
+register_time (RregisterTime
+ZoneId (RZoneId"*
+ReconnectInfo
+pvp_node (	RpvpNode"O
+UserConnectInfo
+
+logic_node (	R	logicNode
+
+time_stamp (R	timeStamp"6
+KeyValueType
+key (Rkey
+value (Rvalue"C
+KeyValueTypeList
+key (Rkey
+
+value_list (R	valueList"±
+KeyValueType64
+key (Rkey
+value (Rvalue
+value2 (Rvalue2
+value3 (Rvalue3
+str_val (	RstrVal
+value4 (Rvalue4
+value5 (Rvalue5">
+KeyValueType64Str
+key (Rkey
+str_val (	RstrVal"S
+KeyValueFloat32
+key (Rkey
+value (Rvalue
+value64 (Rvalue64"7
+UKeyValueType
+key (Rkey
+value (Rvalue"c
+SlotDetailData
+level (Rlevel
+equip_id (RequipId 
+card_id_list (R
+cardIdList"]
+SlotData
+hero_id (RheroId8
+	slot_list (2.serverproto.SlotDetailDataRslotList"x
+PetEquipData
+id (Rid 
+equip_cfg_id (R
+equipCfgId
+level (Rlevel 
+equip_pet_id (R
+equipPetId"d
+PetSlotDetailData
+idx (Ridx
+equip_id (RequipId"
+stone_id_list (RstoneIdList"1
+	SkillData
+id (Rid
+point (Rpoint"~
+	ChangeJob2
+	task_list (2.serverproto.TaskDataRtaskList
+hero_id (RheroId$
+job_fush_state (RjobFushState"b
+PetQiyueSlotInfo
+slot_idx (RslotIdx
+pet_id (RpetId
+
+pet_cfg_id (RpetCfgId"l
+PetQiyueInfo
+pet_id (RpetIdE
+qiyue_slot_list (2.serverproto.PetQiyueSlotInfoRqiyueSlotList"m
+PetQiyueAttr
+pet_id (RpetIdF
+battle_attr_list (2.serverproto.KeyValueFloat32RbattleAttrList"Ì
+HeroData
+id (Rid
+	config_id (RconfigId
+fight_power (R
+fightPower
+	is_battle (RisBattle
+
+base_level (R	baseLevel#
+advance_level (RadvanceLevel%
+strength_level (RstrengthLevel)
+slot (2.serverproto.SlotDataRslot,
+skill	 (2.serverproto.RoleSkillRskill6
+	attr_list
+ (2.serverproto.KeyValueTypeRattrList
+
+attr_point (R	attrPoint"
+battle_pet_id (RbattlePetId&
+pet_fight_power (RpetFightPower<
+quality_list (2.serverproto.KeyValueTypeRqualityList1
+repress_skill_pvp_val (RrepressSkillPvpValI
+skill_equip_slot (2.serverproto.SkillEquipSlotDataRskillEquipSlot?
+pet_qiyue_data (2.serverproto.PetQiyueInfoRpetQiyueDataJ
+battle_attr_list_old2 (2.serverproto.KeyValueTypeRbattleAttrListOldF
+battle_attr_list3 (2.serverproto.KeyValueFloat32RbattleAttrList"|
+FashionData
+eye (Reye
+hair (Rhair
+hair_avatar (R
+hairAvatar&
+fashion_up_list (RfashionUpList"U
+FashionAttr
+jobType (RjobType
+attrId (RattrId
+value (Rvalue"[
+HeadFrameData"
+head_frame_id (RheadFrameId&
+head_frame_time (RheadFrameTime"é
+HeadInfo!
+head_version (RheadVersion
+	head_list (RheadListB
+head_frame_list (2.serverproto.HeadFrameDataRheadFrameList"ı
+RoleData
+base_exp (RbaseExp
+job_exp (RjobExp
+	job_level (RjobLevel
+hero_exp (RheroExp2
+	hero_data (2.serverproto.HeroDataRheroData
+fight_power (R
+fightPower
+cruise (Rcruise
+
+max_cruise (R	maxCruise
+head_id	 (RheadId&
+last_login_time
+ (RlastLoginTime
+	skill_box (RskillBoxC
+boss_reward_list (2.serverproto.KeyValueTypeRbossRewardList*
+skill_reset_count (RskillResetCount"
+head_frame_id (RheadFrameId"„
+RoleBase
+id (Rid
+	nick_name (	RnickName
+desc (	Rdesc
+sex (Rsex
+country (Rcountry
+guide_id (RguideId
+coin (Rcoin
+rmb (Rrmb4
+res_list	 (2.serverproto.KeyValueTypeRresList2
+	role_data
+ (2.serverproto.RoleDataRroleData;
+fashion_data (2.serverproto.FashionDataRfashionData2
+	head_Info (2.serverproto.HeadInfoRheadInfo
+story_id (RstoryId1
+cguide (2.serverproto.KeyValueTypeRcguide>
+map_animation (2.serverproto.KeyValueTypeRmapAnimation
+ban_time (RbanTime%
+total_recharge (RtotalRecharge!
+day_recharge (RdayRecharge
+	vip_level (RvipLevel,
+last_recharge_time (RlastRechargeTime'
+question_reward (RquestionReward#
+create_reward (RcreateReward
+ban_type (RbanType"
+chat_ban_time (RchatBanTime"
+chat_ban_type (RchatBanType*
+total_online_time (RtotalOnlineTime!
+online_stamp (RonlineStamp(
+online_reward_id (RonlineRewardId3
+daily_reset_time_stamp (RdailyResetTimeStamp1
+repress_skill_pvp_val (RrepressSkillPvpVal"Å
+SkillEquipSlotDetailData$
+skill_equip_id (RskillEquipId1
+skill_equip_config_id (RskillEquipConfigId3
+skill_equip_star_level (RskillEquipStarLevel
+
+slot_level (R	slotLevel8
+
+slot_attrs (2.serverproto.KeyValueTypeR	slotAttrs"q
+SkillEquipSlotData
+hero_id (RheroIdB
+	slot_list (2%.serverproto.SkillEquipSlotDetailDataRslotList"\
+SkillEquipData
+id (Rid
+	config_id (RconfigId
+
+star_level (R	starLevel"o
+SkillEquipChangeDataE
+skill_equip_data (2.serverproto.SkillEquipDataRskillEquipData
+add (Radd"Ñ
+RoleSkillEquip+
+max_skill_equip_id (RmaxSkillEquipIdE
+skill_equip_list (2.serverproto.SkillEquipDataRskillEquipList":
+	EquipData
+	config_id (RconfigId
+num (Rnum"B
+	RoleEquip5
+
+equip_list (2.serverproto.EquipDataR	equipList"h
+ItemData
+id (Rid
+	config_id (RconfigId
+num (Rnum
+
+time_stamp (R	timeStamp"X
+ChipData
+	config_id (RconfigId
+num (Rnum
+
+time_stamp (R	timeStamp"Z
+RoleBag2
+	item_list (2.serverproto.ItemDataRitemList
+	bag_count (RbagCount">
+RoleHero2
+	hero_data (2.serverproto.HeroDataRheroData">
+RoleChip2
+	chip_list (2.serverproto.ChipDataRchipList"r
+JobSkillData
+	job_stage (RjobStageE
+unlock_skill_list (2.serverproto.KeyValueTypeRunlockSkillList"l
+RoleSkillSlot
+skill_id (RskillId
+unlock (Runlock(
+default_skill_id (RdefaultSkillId"á
+	RoleSkill?
+job_skill_list (2.serverproto.JobSkillDataRjobSkillList9
+
+skill_list (2.serverproto.RoleSkillSlotR	skillList"9
+CardData
+	config_id (RconfigId
+num (Rnum"e
+CardHandBook
+card_id (RcardId
+
+card_level (R	cardLevel
+
+reward_rec (R	rewardRec"h
+CardCollect!
+card_quality (RcardQuality6
+	card_book (2.serverproto.CardHandBookRcardBook"Î
+RoleCard2
+	card_list (2.serverproto.CardDataRcardList$
+card_slot_list (RcardSlotList;
+card_collect (2.serverproto.CardCollectRcardCollectH
+total_card_num_list (2.serverproto.KeyValueTypeRtotalCardNumList"ﬁ
+RoleFashionData
+
+fashion_id (R	fashionId
+fashion_lvl (R
+fashionLvl!
+fashion_wear (RfashionWear8
+
+resetAttrs (2.serverproto.FashionAttrR
+resetAttrs.
+attrs (2.serverproto.FashionAttrRattrs"û
+RoleFashion!
+fashion_list (RfashionList?
+fashion_data (2.serverproto.RoleFashionDataRfashionData+
+lvs (2.serverproto.KeyValueTypeRlvs"≤
+RoleMap
+map_type (RmapType'
+pos (2.serverproto.PositionRpos(
+world_boss_count (RworldBossCount9
+world_boss_challenge_list (RworldBossChallengeList"4
+Position
+x (Rx
+y (Ry
+z (Rz"3
+Vector3
+x (Rx
+y (Ry
+z (Rz"Z
+Player
+uid (Ruid'
+pos (2.serverproto.PositionRpos
+u_type (RuType"™
+PlayerShowInfo
+uid (Ruid
+level (Rlevel
+	vip_level (RvipLevel
+gender (Rgender
+job_id (RjobId
+	nick_name (	RnickName;
+fashion_data (2.serverproto.FashionDataRfashionData
+	action_id (RactionId
+head_id	 (RheadId
+img_id
+ (RimgId"
+head_frame_id (RheadFrameId
+fight_power (R
+fightPower
+	from_zone (RfromZone
+	real_zone (RrealZone")
+OtherPlayerDetailInfo
+uid (Ruid"≈
+UnitPosAndDir
+uid (Ruid&
+pos (2.serverproto.Vector3Rpos&
+dir (2.serverproto.Vector3Rdir 
+is_on_ground (R
+isOnGround
+u_type (RuType
+param_id (RparamId"h
+QuickBattleData
+	max_times (RmaxTimes
+	day_times (RdayTimes
+	draw_time (RdrawTime"Ã
+BattleEvilBossData
+pos_idx (RposIdx
+boss_id (RbossId
+expire_time (R
+expireTime&
+reward_evil_exp (RrewardEvilExp!
+refresh_time (RrefreshTime
+quality (Rquality"»
+BattleEvilData
+
+free_count (R	freeCount
+
+free_limit (R	freeLimit'
+challenge_count (RchallengeCount
+
+evil_level (R	evilLevel<
+	boss_list (2.serverproto.BattleEvilBossDataRbossListQ
+quality_challenge_count (2.serverproto.KeyValueTypeRqualityChallengeCount
+total_count (R
+totalCount"]
+BattleExpeditionActor
+id (Rid
+level (Rlevel
+hp (Rhp
+sp (Rsp"d
+BattleExpeditionReward'
+expedition_type (RexpeditionType!
+reward_state (RrewardState"Å
+ExpeditionRankInfo
+rank (RrankA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo
+score (Rscore"÷	
+BattleExpedition'
+expedition_type (RexpeditionType(
+battle_hero_list (RbattleHeroList0
+total_expedition_num (RtotalExpeditionNum#
+challenge_num (RchallengeNum.
+cur_expedition_type (RcurExpeditionType4
+finish_expedition_list (RfinishExpeditionListO
+reward_state_list (2#.serverproto.BattleExpeditionRewardRrewardStateList(
+cur_battle_level (RcurBattleLevel?
+	boss_list	 (2".serverproto.BattleExpeditionActorRbossList(
+battle_buff_list
+ (RbattleBuffList5
+battle_select_buff_list (RbattleSelectBuffListQ
+battle_hero_hp_list (2".serverproto.BattleExpeditionActorRbattleHeroHpList
+
+battle_idx (R	battleIdx8
+
+assist_num (2.serverproto.KeyValueTypeR	assistNum=
+be_assist_num (2.serverproto.KeyValueTypeRbeAssistNum!
+assist_state (RassistState1
+assist_guild_end_time (RassistGuildEndTimeH
+be_assist_uid_list (2.serverproto.KeyValueType64RbeAssistUidList*
+assist_time_stamp (RassistTimeStamp0
+cur_expedition_score (RcurExpeditionScore7
+cur_expedition_score_max (RcurExpeditionScoreMax=
+expedition_score_reset_time (RexpeditionScoreResetTime4
+expedition_type_reward (RexpeditionTypeReward"»
+RushMap
+	map_score (RmapScore
+	bag_score (RbagScore
+rush_map_id (R	rushMapId
+fight_round (R
+fightRound!
+reward_round (RrewardRound
+rank_reward (R
+rankReward"Ù
+
+RoleBattle(
+last_income_time (RlastIncomeTime
+	map_level (RmapLevel
+map_id (RmapId&
+max_income_time (RmaxIncomeTime?
+quick_battle (2.serverproto.QuickBattleDataRquickBattle"
+reward_map_id (RrewardMapId(
+reward_map_level (RrewardMapLevel(
+reward_map_count (RrewardMapCount8
+	evil_info	 (2.serverproto.BattleEvilDataRevilInfoF
+expedition_info
+ (2.serverproto.BattleExpeditionRexpeditionInfo$
+map_level_time (RmapLevelTime/
+rush_map (2.serverproto.RushMapRrushMapN
+map_challenge_num_list (2.serverproto.KeyValueTypeRmapChallengeNumList"H
+ActorPosition
+id (Rid'
+pos (2.serverproto.PositionRpos"ê
+RankPlayerInfo
+uid (Ruid
+	map_level (RmapLevel
+map_id (RmapId8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief"ç
+WorldBossContentInfo
+cfg_id (RcfgId
+boss_id (RbossId&
+boss_summon_idx (RbossSummonIdx8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief
+fighter_num (R
+fighterNum
+expire_time (R
+expireTime
+total_hp (RtotalHp
+cur_hp	 (RcurHp
+is_fight
+ (RisFight*
+next_refresh_time (RnextRefreshTime(
+boss_summon_type (RbossSummonType"K
+PointNameInfo
+name (	Rname
+point (Rpoint
+uid (Ruid"§
+WorldBossRandPointInfo
+reward_list (R
+rewardList
+boss_id (RbossId&
+boss_summon_idx (RbossSummonIdx(
+boss_summon_type (RbossSummonType"f
+TaskProgressType
+key (Rkey
+value (Rvalue
+state (Rstate
+total (Rtotal"∞
+TaskData
+task_id (RtaskId9
+progress (2.serverproto.TaskProgressTypeRprogress
+state (Rstate
+
+begin_time (R	beginTime
+	task_type (RtaskType"W
+HeadCond
+head_id (RheadId2
+	task_list (2.serverproto.TaskDataRtaskList"E
+RoleHeadCond5
+
+conditions (2.serverproto.HeadCondR
+conditions"W
+HeroCond
+hero_id (RheroId2
+	task_list (2.serverproto.TaskDataRtaskList"E
+RoleHeroCond5
+
+conditions (2.serverproto.HeroCondR
+conditions"Ë
+RoleTask2
+	task_list (2.serverproto.TaskDataRtaskList4
+	condition (2.serverproto.ChangeJobR	condition6
+	head_cond (2.serverproto.RoleHeadCondRheadCond6
+	hero_cond (2.serverproto.RoleHeroCondRheroCondC
+daily_task_score (2.serverproto.KeyValueTypeRdailyTaskScoreA
+week_task_score (2.serverproto.KeyValueTypeRweekTaskScore$
+total_add_zeny (RtotalAddZeny2
+accumulative_card_mvp (RaccumulativeCardMvp*
+latest5_hour_time	 (Rlatest5HourTime3
+latest_week5_hour_time
+ (RlatestWeek5HourTime?
+type_rec_count (2.serverproto.KeyValueTypeRtypeRecCount"{
+SlotFightPower
+hero_id (RheroId(
+hero_fight_power (RheroFightPower&
+pet_fight_power (RpetFightPower"˘
+FightPowerData)
+total_fightpower (RtotalFightpowerD
+slot_fightpower (2.serverproto.SlotFightPowerRslotFightpower.
+pet_bond_fightpower (RpetBondFightpowerF
+actor_fightpower (2.serverproto.SlotFightPowerRactorFightpower"y
+	RushArena
+
+rush_round (R	rushRound
+count (Rcount
+reward (Rreward
+rank_reward (R
+rankReward"§
+	ArenaInfo'
+challenge_count (RchallengeCount!
+reward_count (RrewardCount
+	buy_count (RbuyCount
+score (Rscore
+	win_count (RwinCount
+total_count (R
+totalCount
+	old_score (RoldScore
+
+win_streak (R	winStreak#
+failed_streak	 (RfailedStreak2
+last_challenge_player
+ (RlastChallengePlayer$
+self_hero_list (RselfHeroList&
+arena_season_id (RarenaSeasonId3
+last_arena_season_time (RlastArenaSeasonTime(
+record_win_count (RrecordWinCount,
+record_total_count (RrecordTotalCount5
+
+rush_arena (2.serverproto.RushArenaR	rushArena3
+arena_season_id_reduce (RarenaSeasonIdReduce"|
+ArenaRankInfo
+rank (RrankA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo
+score (Rscore"9
+	RoleArena,
+arena (2.serverproto.ArenaInfoRarena"Ø
+MailContent
+id (Rid
+	config_id (RconfigId
+type (Rtype:
+reward_list (2.serverproto.KeyValueTypeR
+rewardList
+
+begin_time (R	beginTime
+expire_time (R
+expireTime
+state (Rstate
+
+param_list (R	paramList
+title	 (	Rtitle
+content
+ (	Rcontent"ê
+RoleMail5
+	mail_list (2.serverproto.MailContentRmailList
+max_mail_id (R	maxMailId-
+curr_global_mail_id (RcurrGlobalMailId"/
+RoleRed$
+is_unread_mail (RisUnreadMail"{
+CompetitionRewardInfo
+
+reward_idx (R	rewardIdx$
+reward_end_tme (RrewardEndTme
+
+param_list (R	paramList"˙
+CompetitionInfo%
+competition_id (RcompetitionId 
+cur_end_time (R
+curEndTimeL
+reward_info_list (2".serverproto.CompetitionRewardInfoRrewardInfoList
+	com_param (RcomParam+
+com_param_add_time (RcomParamAddTime
+	self_rank (RselfRank
+
+total_rank (R	totalRank$
+next_com_score (RnextComScore$
+last_com_score	 (RlastComScore"L
+
+DivineInfo
+	cur_stars (RcurStars!
+failed_count (RfailedCount"V
+DaySupplyData
+begin (Rbegin
+	end_index (RendIndex
+draw (Rdraw"L
+FansVoteData
+name (	Rname
+rank (Rrank
+score (Rscore"E
+FansBoxData
+uid (Ruid
+box (Rbox
+rank (Rrank"J
+FansRankData
+uid (Ruid
+score (Rscore
+rank (Rrank"b
+FansVoteDetail
+uid (Ruid
+	vote_time (RvoteTime!
+ticket_count (RticketCount"H
+IdolFansInfo8
+	fans_list (2.serverproto.FansVoteDetailRfansList"´
+IdolInfo8
+	vote_data (2.serverproto.KeyValueType64RvoteData
+
+day_reward (R	dayReward)
+join_competition (RjoinCompetition
+	box_score (RboxScore
+first_begin (R
+firstBegin
+	first_end (RfirstEnd!
+second_begin (RsecondBegin
+
+second_end (R	secondEnd"ä
+PlayerShowData
+uid (Ruid2
+	role_base (2.serverproto.RoleBaseRroleBase2
+	hero_data (2.serverproto.HeroDataRheroData"À
+IdolSeasonData<
+detail_list (2.serverproto.PlayerShowDataR
+detailList6
+	vote_list (2.serverproto.FansRankDataRvoteList
+
+day_reward (R	dayReward
+first_begin (R
+firstBegin
+	first_end (RfirstEnd!
+second_begin (RsecondBegin
+
+second_end (R	secondEnd$
+has_box_reward (RhasBoxReward"`
+FansVoteRewardData
+uid (Ruid8
+	idol_list (2.serverproto.KeyValueType64RidolList"£
+RoleCompetitionE
+cur_competition (2.serverproto.CompetitionInfoRcurCompetition2
+reward_competition_id (RrewardCompetitionId9
+reward_competition_sub_id (RrewardCompetitionSubId/
+divine (2.serverproto.DivineInfoRdivine)
+idol (2.serverproto.IdolInfoRidol"c
+
+RoleFriend
+sub_list (RsubList
+	fans_list (RfansList
+
+black_list (R	blackList"E
+
+RoleSocial7
+
+friendInfo (2.serverproto.RoleFriendR
+friendInfo"˚
+FightRoleInfo
+is_robot (RisRobotA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo
+	job_level (RjobLevel6
+	attr_list (2.serverproto.KeyValueTypeRattrList;
+fashion_data (2.serverproto.FashionDataRfashionData;
+hero_data_list (2.serverproto.HeroDataRheroDataList&
+max_fight_power (RmaxFightPower<
+battle_pet_list (2.serverproto.PetDataRbattlePetList$
+change_play_id	 (RchangePlayId1
+repress_skill_pvp_val
+ (RrepressSkillPvpVal"c
+ChatMessageInfo
+message (	Rmessage
+	send_time (RsendTime
+sub_type (RsubType"Ä
+ChatPlayerBriefInfo
+uid (Ruid
+	nick_name (	RnickName
+img_id (RimgId
+	config_id (RconfigId
+level (Rlevel"
+head_frame_id (RheadFrameId
+gender (Rgender
+	vip_level (RvipLevel
+head_id	 (RheadId"‚
+CommonPlayerBriefInfo
+uid (Ruid
+	nick_name (	RnickName
+img_id (RimgId
+gender (Rgender
+level (Rlevel
+	config_id (RconfigId
+fight_power (R
+fightPower!
+online_state (RonlineState
+online_time	 (R
+onlineTime
+tower_level
+ (R
+towerLevel
+
+tower_time (R	towerTime 
+map_level_id (R
+mapLevelId(
+battle_record_id (RbattleRecordId"
+head_frame_id (RheadFrameId
+	vip_level (RvipLevel
+select_zone (R
+selectZone
+head_id (RheadId%
+total_recharge (RtotalRecharge,
+last_recharge_time (RlastRechargeTime
+rmb  (Rrmb
+zeny! (Rzeny&
+max_fight_power" (RmaxFightPower)
+daochang100_tips# (	Rdaochang100Tips";
+PlayerStateInfo
+uid (Ruid
+online (Ronline"x
+SystemMessage
+type (Rtype
+	nick_name (	RnickName
+param_id (RparamId
+	send_time (RsendTime"◊
+MessageContentInfo
+type (Rtype9
+from_id (2 .serverproto.ChatPlayerBriefInfoRfromId6
+message (2.serverproto.ChatMessageInfoRmessage
+	target_id (RtargetId
+
+param_list (R	paramList"c
+RoleChatW
+offline_msg_player_list (2 .serverproto.ChatPlayerBriefInfoRofflineMsgPlayerList"s
+BuyInfo
+goods_id (RgoodsId
+buy_num (RbuyNum
+buy_time (RbuyTime
+ref_time (RrefTime"t
+SpecialShop!
+refresh_time (RrefreshTime
+
+goods_list (R	goodsList#
+refresh_count (RrefreshCount"î
+ShopBuyInfo
+
+goods_type (R	goodsType1
+	item_info (2.serverproto.BuyInfoRitemInfo3
+ref_data (2.serverproto.SpecialShopRrefData"Ø
+ShopItem
+goods_id (RgoodsId
+price (Rprice
+	cur_price (RcurPrice
+
+dispercent (R
+dispercent
+hot (Rhot
+
+limit_type	 (R	limitType
+count
+ (Rcount
+circle (Rcircle
+
+start_time (R	startTime
+end_time (RendTime
+
+hd_item_id (RhdItemId"ä
+ShopData
+
+goods_type (R	goodsType2
+	item_info (2.serverproto.ShopItemRitemInfo/
+buy_info (2.serverproto.BuyInfoRbuyInfo!
+refresh_time (RrefreshTime#
+refresh_count (RrefreshCount
+day_end (RdayEnd
+week_end (RweekEnd"5
+ShopList)
+data (2.serverproto.ShopDataRdata"Î
+ViewRoleInfo
+id (Rid8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief2
+	role_hero (2.serverproto.HeroDataRroleHero)
+hero (2.serverproto.RoleHeroRhero2
+fashion (2.serverproto.RoleFashionRfashion6
+	attr_list (2.serverproto.KeyValueTypeRattrList;
+fashion_data (2.serverproto.FashionDataRfashionData
+danScore (RdanScore
+
+param_list	 (R	paramList
+
+guild_name
+ (	R	guildName/
+pet_list (2.serverproto.PetDataRpetList"_
+ShopCost
+	shop_type (RshopType
+res_type (RresType
+	res_count (RresCount"é
+RoleShop,
+info (2.serverproto.ShopBuyInfoRinfo"
+total_buy_num (RtotalBuyNum0
+cost_res (2.serverproto.ShopCostRcostRes"+
+CurRoundSign
+	last_sign (RlastSign"
+SignUp
+
+sign_round (R	signRound
+cur_day (RcurDay=
+cur_sign_info (2.serverproto.CurRoundSignRcurSignInfo"˛
+RoleActivity0
+	sign_info (2.serverproto.SignUpRsignInfo'
+cur_day_end_time (RcurDayEndTimeO
+activity_data_list (2!.serverproto.ActivitiesDetailDataRactivityDataList*
+first_charge_time (RfirstChargeTime9
+first_charge_reward_state (RfirstChargeRewardStateW
+unlock_charge_list (2).serverproto.ActivitiesUnlockRechargeDataRunlockChargeListN
+unlock_charge_has_list (2.serverproto.KeyValueTypeRunlockChargeHasList2
+expired_activity_list (RexpiredActivityList"√
+ActivitiesDetailData#
+activities_id (RactivitiesId'
+activities_type (RactivitiesType
+
+start_time (R	startTime
+end_time (RendTime
+cur_day (RcurDayE
+login_reward_list (2.serverproto.KeyValueTypeRloginRewardListK
+fortnight_days (2$.serverproto.ActivitiesFortnightDaysRfortnightDays
+
+param_time (R	paramTime!
+reward_state	 (RrewardStateN
+collection_list
+ (2%.serverproto.ActivitiesCollectionDataRcollectionListN
+likability_data (2%.serverproto.ActivitiesLikabilityDataRlikabilityData2
+	king_task (2.serverproto.TaskDataRkingTask'
+fighting_target (RfightingTarget>
+exchange_list (2.serverproto.ExchangeDataRexchangeList=
+
+wheel_data (2.serverproto.ActivityWheelDataR	wheelData8
+	sign_data (2.serverproto.ActivitySignInRsignData"S
+ActivitySignIn$
+next_sign_time (RnextSignTime
+	sign_days (RsignDays"»
+ActivityWheelDataU
+wheel_reward_item_list (2 .serverproto.WheelRewardItemInfoRwheelRewardItemList
+
+wheel_open (R	wheelOpen*
+wheel_refresh_num (RwheelRefreshNum!
+template_idx (RtemplateIdx
+	wheel_num (RwheelNum
+	wheel_idx (RwheelIdx4
+log_list (2.serverproto.WheelLogDataRlogList"A
+ExchangeData
+id (Rid!
+exchange_num (RexchangeNum"i
+ExchangeInfo!
+condition_id (RconditionId6
+	cost_item (2.serverproto.KeyValueTypeRcostItem"_
+ActivitiesData
+id (Rid
+type (Rtype
+end_time (RendTime
+bg (	Rbg"ò
+ActivitiesFortnightDays
+
+task_score (R	taskScore*
+task_score_reward (RtaskScoreReward2
+	task_list (2.serverproto.TaskDataRtaskList"}
+ActivitiesUnlockRechargeData#
+activities_id (RactivitiesId
+
+start_time (R	startTime
+end_time (RendTime"f
+ActivitiesCollectionData
+id (Rid
+
+reward_num (R	rewardNum
+	no_notice (RnoNotice"F
+ActivitiesLikabilityData
+level (Rlevel
+param (Rparam"l
+FriendTowerInfo
+tower_level (R
+towerLevel8
+infos (2".serverproto.CommonPlayerBriefInfoRinfos"y
+	RushTower
+
+rush_round (R	rushRound
+count (Rcount
+reward (Rreward
+rank_reward (R
+rankReward"∏
+	RoleTower&
+now_tower_level (RnowTowerLevel$
+now_tower_time (RnowTowerTime5
+
+rush_tower (2.serverproto.RushTowerR	rushTower&
+sys_reward_time (RsysRewardTime"H
+RefusedApply
+guild_id (RguildId
+
+apply_time (R	applyTime"D
+DayApply
+guild_id (RguildId
+
+apply_time (R	applyTime"ù
+TowerBriefInfoC
+common_info (2".serverproto.CommonPlayerBriefInfoR
+commonInfo
+battle_time (R
+battleTime%
+battle_version (RbattleVersion"z
+RecommendGuild
+guild_id (RguildId
+level (Rlevel
+active_time (R
+activeTime
+active (Ractive"A
+RecommendSet1
+guild (2.serverproto.RecommendGuildRguild"X
+MemberBrief
+uid (Ruid!
+offline_time (RofflineTime
+title (Rtitle"è
+GuildNotifyData-
+brief (2.serverproto.GuildBriefRbrief
+	mem_count (RmemCount
+is_apply (RisApply
+cp_num (RcpNum"i
+
+MemberInfo!
+total_active (RtotalActive8
+brief (2".serverproto.CommonPlayerBriefInfoRbrief"Ö
+GuildBossLogDetial7
+	fight_log (2.serverproto.GuildFightLogRfightLog6
+info (2".serverproto.CommonPlayerBriefInfoRinfo"k
+GuildBossData
+boss_id (RbossId
+
+fight_time (R	fightTime"
+fight_cd_time (RfightCdTime"∫
+GuildLog
+op_title (RopTitle
+op_name (	RopName
+be_op_title (R	beOpTitle
+
+be_op_name (	RbeOpName
+
+event_type (R	eventType
+
+event_time (R	eventTime"A
+GuildLogSet2
+	guild_log (2.serverproto.GuildLogRguildLog"«
+GuildMember
+	member_id (RmemberId
+title (Rtitle!
+offline_time (RofflineTime<
+active_info (2.serverproto.KeyValueType64R
+activeInfo$
+add_guild_time (RaddGuildTime"∂
+
+MemberData
+pre_id (RpreId
+vice_pre_id (R	vicePreId9
+member_info (2.serverproto.GuildMemberR
+memberInfo
+	kick_time (RkickTime
+kick_num (RkickNum"´
+
+GuildBrief
+guild_id (RguildId
+
+guild_name (	R	guildName
+guild_badge (R
+guildBadge
+guild_level (R
+guildLevel!
+guild_active (RguildActive"©
+	GuildBase8
+guild_brief (2.serverproto.GuildBriefR
+guildBrief
+
+day_active (R	dayActive
+	guild_exp (RguildExp
+active_time (R
+activeTime!
+recruit_type (RrecruitType#
+recruit_level (RrecruitLevel
+notice (	Rnotice%
+recruit_notice (	RrecruitNotice"V
+DemonDamage
+uid (Ruid
+damage (Rdamage
+
+fight_time (R	fightTime"Ø
+
+GuildDemon 
+cur_demon_id (R
+curDemonId!
+total_damage (RtotalDamage9
+damage_list (2.serverproto.DemonDamageR
+damageList!
+refresh_time (RrefreshTime"
+GuildActiveInfo!
+active_value (RactiveValue(
+day_active_value (RdayActiveValue
+active_time (R
+activeTime"x
+RoleApplyInfo2
+	day_apply (2.serverproto.DayApplyRdayApply3
+refused (2.serverproto.RefusedApplyRrefused"o
+GuildBossTickTime
+bossId (RbossId
+fight_count (R
+fightCount!
+refresh_time (RrefreshTime"
+GuildBattle!
+reward_round (RrewardRound(
+mvp_reward_round (RmvpRewardRound#
+challenge_num (RchallengeNum"ã
+GuildDemonReward!
+total_damage (RtotalDamage
+demon_id (RdemonId9
+damage_list (2.serverproto.DemonDamageR
+damageList"–
+	DemonInfo(
+free_fight_count (RfreeFightCount&
+buy_fight_count (RbuyFightCount&
+use_fight_count (RuseFightCount!
+refresh_time (RrefreshTime&
+last_fight_time (RlastFightTime"“
+	RoleGuild
+guild_id (RguildId?
+guild_active (2.serverproto.GuildActiveInfoRguildActive;
+guild_apply (2.serverproto.RoleApplyInfoR
+guildApply
+quit_num (RquitNum
+	next_join (RnextJoin=
+
+boss_fight (2.serverproto.GuildBossTickTimeR	bossFight
+
+guild_name (	R	guildName"
+elite_boss_cd (ReliteBossCd;
+guild_battle	 (2.serverproto.GuildBattleRguildBattle5
+
+demon_info
+ (2.serverproto.DemonInfoR	demonInfo"&
+	GuildIdex
+guild_id (RguildId"Ö
+RushRoundData
+rush_id (RrushId
+
+start_time (R	startTime
+
+close_time (R	closeTime
+
+reset_time (R	resetTime"û
+RushData
+rush_id (RrushId
+
+rush_stage (R	rushStage
+reward_list (R
+rewardList9
+
+round_data (2.serverproto.RushRoundDataR	roundData"X
+GuildFightLog
+uid (Ruid
+
+fight_time (R	fightTime
+damage (Rdamage"6
+
+GuildFight
+uid (Ruid
+damage (Rdamage"º
+GuildBossInfo0
+max_dam (2.serverproto.GuildFightRmaxDam7
+	fight_log (2.serverproto.GuildFightLogRfightLog!
+refresh_time (RrefreshTime
+
+boss_state (R	bossState"]
+	GuildBoss
+guild_id (RguildId5
+day_boss (2.serverproto.GuildBossInfoRdayBoss"1
+RoleApplayData
+apply_guild (R
+applyGuild"2
+GuildApplayData
+apply_guild (R
+applyGuild"‚
+GuildBattleSelfData
+uid (Ruid
+guild_id (RguildId#
+challenge_num (RchallengeNum6
+	buff_list (2.serverproto.KeyValueTypeRbuffList&
+reborn_end_time (RrebornEndTime%
+auto_challenge (RautoChallenge
+auto_reborn (R
+autoReborn
+win_num (RwinNum
+	win_strak	 (RwinStrak
+	guild_pre
+ (RguildPre"π
+GuildPosIdxData
+pos_idx (RposIdx
+guild_id (RguildId
+uid (RuidC
+owner_brief (2".serverproto.CommonPlayerBriefInfoR
+ownerBrief$
+fight_end_time (RfightEndTime(
+fight_start_time (RfightStartTime#
+challenge_uid (RchallengeUid&
+fight_ping_time (RfightPingTime"ß
+GuildBattleLog
+type (Rtype
+record_time (R
+recordTime
+state (Rstate
+pos_idx (RposIdx,
+target_player_name (	RtargetPlayerName&
+target_guild_id (RtargetGuildId*
+target_player_uid (RtargetPlayerUid2
+challenge_player_name (	RchallengePlayerName,
+challenge_guild_id	 (RchallengeGuildId0
+challenge_player_uid
+ (RchallengePlayerUid
+	win_steak (RwinSteak"·
+GuildBattleBaseData*
+battle_start_time (RbattleStartTime&
+battle_end_time (RbattleEndTime:
+
+score_list (2.serverproto.KeyValueType64R	scoreList
+	score_mvp (RscoreMvp
+
+killer_mvp (R	killerMvp"¬
+GuildBattleBase&
+guild_battle_id (RguildBattleId&
+cur_guild_start (RcurGuildStart,
+guild_battle_state (RguildBattleState(
+next_stage_begin (RnextStageBegin*
+next_battle_begin (RnextBattleBegin-
+tournament_prepare (RtournamentPrepare)
+tournament_begin (RtournamentBegin%
+tournament_end (RtournamentEnd-
+semifinals_prepare	 (RsemifinalsPrepare)
+semifinals_begin
+ (RsemifinalsBegin%
+semifinals_end (RsemifinalsEnd%
+finals_prepare (RfinalsPrepare!
+finals_begin (RfinalsBegin
+
+finals_end (R	finalsEnd
+show_end (RshowEnd
+is_open (RisOpen!
+reward_state (RrewardState
+ban_type (RbanType"√
+CountTableData!
+battle_index (RbattleIndex
+	guild1_id (Rguild1Id
+guild1_name (	R
+guild1Name!
+guild1_badge (Rguild1Badge
+	guild2_id (Rguild2Id
+guild2_name (	R
+guild2Name!
+guild2_badge (Rguild2Badge
+	win_guild (RwinGuild
+win_type	 (RwinType
+state
+ (Rstate"F
+GuildCountPartTable/
+data (2.serverproto.CountTableDataRdata"c
+GuildBattleDetail
+guild_id (RguildId
+
+slot_count (R	slotCount
+score (Rscore"g
+GuildBattleMvp
+uid (Ruid
+name (	Rname
+guild_id (RguildId
+score (Rscore"é
+GuildBattleRank
+score (Rscore
+rank (Rrank
+guild_id (RguildId6
+info (2".serverproto.CommonPlayerBriefInfoRinfo"Ü
+GuildBattleCP-
+brief (2.serverproto.GuildBriefRbrief
+	mem_count (RmemCount
+cp_num (RcpNum
+rank (Rrank"†
+GMNoticeInfo!
+notice_color (	RnoticeColor!
+notice_speed (RnoticeSpeed!
+notice_count (RnoticeCount'
+notice_interval (RnoticeInterval"G
+ReconnectUserData
+map_id (RmapId
+	map_level (RmapLevel"j
+EquipSlotCards
+slot_id (RslotId?
+card_slot_info (2.serverproto.KeyValueTypeRcardSlotInfo"º
+BattleRecordInfo
+uid (Ruid(
+battle_record_id (RbattleRecordId
+	nick_name (	RnickName
+img_id (RimgId
+gender (Rgender
+level (Rlevel
+	config_id (RconfigId
+fight_power (R
+fightPower
+record_time	 (R
+recordTime
+battle_time
+ (R
+battleTime 
+map_level_id (R
+mapLevelId
+
+record_idx (R	recordIdx"
+head_frame_id (RheadFrameId%
+battle_version (RbattleVersion"b
+AssistSaveData
+pet_id (RpetId
+
+pet_cfg_id (RpetCfgId
+	adv_level (RadvLevel"ã
+
+AssistData
+	owner_uid (RownerUid&
+owner_nick_name (	RownerNickName8
+pet_info_list (2.serverproto.PetDataRpetInfoList"á
+PetBondPosData
+	owner_uid (RownerUid
+pet_id (RpetId#
+advance_level (RadvanceLevel
+
+pet_cfg_id (RpetCfgId"ç
+PetBondData
+bond_cfg_id (R	bondCfgId8
+	bond_list (2.serverproto.PetBondPosDataRbondList$
+pet_bond_level (RpetBondLevel"U
+PetSkillData
+	config_id (RconfigId
+level (Rlevel
+rate (Rrate"Ç
+PetData
+id (Rid
+	config_id (RconfigId
+level (Rlevel#
+advance_level (RadvanceLevel8
+
+skill_list (2.serverproto.PetSkillDataR	skillList
+hero_id (RheroId
+param (RparamF
+slot_equip_list (2.serverproto.PetSlotDetailDataRslotEquipList"
+qiyue_hero_id	 (RqiyueHeroIdJ
+battle_attr_list_old2 (2.serverproto.KeyValueTypeRbattleAttrListOld&
+pet_fight_power3 (RpetFightPowerF
+battle_attr_list4 (2.serverproto.KeyValueFloat32RbattleAttrList"F
+AssistIdxData
+pet_id (RpetId
+end_cd_time (R	endCdTime"k
+PetManualST
+
+pet_cfg_id (RpetCfgId
+	adv_level (RadvLevel!
+reward_state (RrewardState"π
+RushPet
+total_score (R
+totalScore
+
+rush_round (R	rushRound!
+reward_round (RrewardRound*
+score_reward_flag (RscoreRewardFlag
+rank_reward (R
+rankReward"–
+RolePet
+
+max_pet_id (RmaxPetIdA
+pet_manual_list (2.serverproto.KeyValueTypeRpetManualList;
+assist_list (2.serverproto.AssistIdxDataR
+assistList/
+pet_list (2.serverproto.PetDataRpetList5
+	bond_list (2.serverproto.PetBondDataRbondListM
+pet_manual_reward_list (2.serverproto.PetManualSTRpetManualRewardList/
+rush_pet (2.serverproto.RushPetRrushPet?
+pet_equip_list (2.serverproto.PetEquipDataRpetEquipList"q
+PetAdvAchievementData
+	adv_level (RadvLevel)
+achievement_time (RachievementTime
+uid (Ruid"\
+CardCollection
+uid (Ruid
+
+card_level (R	cardLevel
+log_time (RlogTime"¡
+InvitationTaskData
+task_id (RtaskId
+progress (Rprogress%
+rewarded_count (RrewardedCount!
+reward_count (RrewardCount,
+complete_max_count (RcompleteMaxCount"y
+InvitationLogData(
+member_nick_name (	RmemberNickName!
+process_time (RprocessTime
+res_val (RresVal"ó
+InvitationMemberValData
+uid (Ruid
+level (Rlevel%
+total_recharge (RtotalRecharge
+res_val (RresVal
+state (Rstate"÷
+RoleInvitation
+	click_num (RclickNum4
+self_invitation_number (RselfInvitationNumber
+
+master_uid (R	masterUid&
+master_end_time (RmasterEndTime*
+click_member_list (RclickMemberList<
+	task_list (2.serverproto.InvitationTaskDataRtaskListL
+member_uid_list (2$.serverproto.InvitationMemberValDataRmemberUidList9
+log_list (2.serverproto.InvitationLogDataRlogList7
+click_replay_master_list	 (RclickReplayMasterList"F
+DrawData
+	draw_type (RdrawType
+
+draw_times (R	drawTimes"⁄
+RoleDraw6
+draw_system (2.serverproto.DrawDataR
+drawSystem-
+card_draw_total_num (RcardDrawTotalNum+
+pet_draw_total_num (RpetDrawTotalNum:
+skill_equip_draw_total_num (RskillEquipDrawTotalNum"•
+	RuneGoods
+goods_id (RgoodsId
+buy_num (RbuyNum
+history_buy (R
+historyBuy
+end_time (RendTime(
+next_reward_time (RnextRewardTime"ù
+RuneShop
+shop_id (RshopId
+sub_shop_id (R	subShopId5
+
+goods_info (2.serverproto.RuneGoodsR	goodsInfo!
+next_refresh (RnextRefresh"Ú
+RuneExplore
+curLvl (RcurLvl
+totalExp (RtotalExp
+
+missionExp (R
+missionExp
+bUnlock (RbUnlock"
+fullMaxAward (RfullMaxAward/
+state (2.serverproto.KeyValueTypeRstate 
+alreadyRune (RalreadyRune"_
+RuneBaseData#
+reset_version (RresetVersion*
+month_card_modify (RmonthCardModify"≥
+RoleRune2
+	shop_list (2.serverproto.RuneShopRshopList;
+rune_explore (2.serverproto.RuneExploreRruneExplore6
+	rune_base (2.serverproto.RuneBaseDataRruneBase"J
+RushRankTop3
+name (	Rname
+data (Rdata
+rank (Rrank"∑
+RushActivityData
+	rush_type (RrushType
+in_rush (RinRush
+	next_rush (RnextRush
+stage (Rstage
+	stage_end (RstageEnd
+
+rush_count (R	rushCount"õ
+DaoChang100Log
+type (Rtype
+record_time (R
+recordTime
+state (Rstate
+pos_idx (RposIdx,
+target_player_name (	RtargetPlayerName*
+target_guild_name (	RtargetGuildName*
+target_player_uid (RtargetPlayerUid
+reward_time (R
+rewardTime"á
+DaoChang100PosRewardData
+pos_idx (RposIdx*
+reward_start_time (RrewardStartTime&
+reward_end_time (RrewardEndTime"£
+DaoChang100PosIdxData
+pos_idx (RposIdx(
+owner_start_time (RownerStartTime$
+owner_end_time (RownerEndTime3
+owner_protect_end_time (RownerProtectEndTimeC
+owner_brief (2".serverproto.CommonPlayerBriefInfoR
+ownerBrief$
+owner_robot_id (RownerRobotId$
+fight_end_time (RfightEndTime
+guild_id (RguildId
+
+guild_name	 (	R	guildName!
+refresh_time
+ (RrefreshTime"§
+WheelRewardItemInfo
+item_idx (RitemIdx
+item_id (RitemId
+item_num (RitemNum
+reward_type (R
+rewardType
+
+has_reward (R	hasReward"ê
+WheelLogData
+log_time (RlogTime
+	nick_name (	RnickName
+uid (Ruid6
+	item_list (2.serverproto.KeyValueTypeRitemList"í
+RoleDaoChang100'
+challenge_count (RchallengeCount.
+challenge_buy_count (RchallengeBuyCount
+	buy_count (RbuyCount(
+base_reward_time (RbaseRewardTime
+	log_state (RlogState&
+last_attack_uid (RlastAttackUid
+	tips_desc (	RtipsDescU
+wheel_reward_item_list
+ (2 .serverproto.WheelRewardItemInfoRwheelRewardItemList
+
+wheel_open (R	wheelOpen*
+wheel_refresh_num (RwheelRefreshNum!
+template_idx (RtemplateIdx
+	wheel_num (RwheelNum
+	wheel_idx (RwheelIdx"R
+RoleCheatChat
+	target_id (RtargetId$
+chat_msg_crc32 (RchatMsgCrc32"I
+RoleStatistic8
+
+cheat_data (2.serverproto.KeyValueTypeR	cheatData"T
+KeepSake 
+keep_sake_id (R
+keepSakeId&
+keep_sake_level (RkeepSakeLevel"y
+RoleKeepSake2
+	keep_sake (2.serverproto.KeepSakeRkeepSake5
+material (2.serverproto.KeyValueTypeRmaterial"A
+KeepSakeCollection
+uid (Ruid
+log_time (RlogTime"˚
+RushInfo"
+pet_config_id (RpetConfigId
+	pet_score (RpetScore
+	pet_level (RpetLevel*
+total_skill_level (RtotalSkillLevel#
+quality_score (RqualityScore
+level_score (R
+levelScore
+skill_score (R
+skillScore"8
+RushPetInfo)
+info (2.serverproto.RushInfoRinfo"ã
+RushPetData
+rank (Rrank
+total_score (R
+totalScore
+name (	Rname3
+pet_info (2.serverproto.RushPetInfoRpetInfo"ó
+	RoleCrossD
+yuanhangtrial (2.serverproto.RoleYuanHangTrialRyuanhangtrialD
+crosstoptower (2.serverproto.RoleCrossTopTowerRcrosstoptower"°
+RoleYuanHangTrial#
+challenge_num (RchallengeNum
+	trial_num (RtrialNum,
+refresh_trial_type (RrefreshTrialType=
+
+trial_data (2.serverproto.YuanHangTrialDataR	trialData<
+log_list (2!.serverproto.YuanHangTrialLogDataRlogList
+trial_score (R
+trialScore"Ö
+YuanHangTrialData
+uid (Ruid
+zone (Rzone
+
+trial_type (R	trialType$
+end_time_stamp (RendTimeStamp!
+reward_state (RrewardState
+dirty_stamp (R
+dirtyStamp(
+be_challenge_num (RbeChallengeNum1
+be_challenge_uid_list (RbeChallengeUidList$
+from_real_zone	 (RfromRealZone#
+duration_time
+ (RdurationTime
+line_num (RlineNum"¿
+YuanHangTrialLogData
+type (Rtype
+record_time (R
+recordTime
+state (Rstate,
+target_player_name (	RtargetPlayerName*
+target_player_uid (RtargetPlayerUid,
+target_player_zone (RtargetPlayerZone
+
+trial_type (R	trialType6
+	item_list (2.serverproto.KeyValueTypeRitemList"}
+CommonRankInfo
+rank (RrankA
+
+brief_info (2".serverproto.CommonPlayerBriefInfoR	briefInfo
+score (Rscore"|
+RoleCrossTopTower$
+valid_end_time (RvalidEndTimeA
+
+fight_list (2".serverproto.TopTowerFightRoleInfoR	fightList"á
+TopTowerFightRoleInfo
+idx (Ridx9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo!
+reward_state (RrewardState"√
+ServerStateInfo
+id (Rid
+sid (	Rsid;
+
+state_list (2.serverproto.StateDetailDescR	stateList 
+max_line_num (R
+maxLineNum/
+max_space_entity_num (RmaxSpaceEntityNum">
+StateDetailDesc
+line (Rline
+cur_num (RcurNum"A
+RoleRush5
+
+rush_skill (2.serverproto.RushSkillR	rushSkill"ª
+	RushSkill
+total_score (R
+totalScore
+
+rush_round (R	rushRound!
+reward_round (RrewardRound*
+score_reward_flag (RscoreRewardFlag
+rank_reward (R
+rankReward"à
+HeadData
+head_id (RheadId
+state (Rstate
+end_time (RendTime2
+	task_data (2.serverproto.TaskDataRtaskData"7
+RoleHead+
+heads (2.serverproto.HeadDataRheads"7
+RoleWish+
+slots (2.serverproto.WishSlotRslots"°
+WishSlot-
+item (2.serverproto.KeyValueTypeRitem
+src_item (RsrcItem
+end_time (RendTime
+isOpen (RisOpen
+isLucky (RisLucky"Ω
+Role
+id (Rid2
+	role_base (2.serverproto.RoleBaseRroleBase2
+	role_hero (2.serverproto.RoleHeroRroleHero/
+role_bag (2.serverproto.RoleBagRroleBag5
+
+role_equip (2.serverproto.RoleEquipR	roleEquip2
+	role_chip (2.serverproto.RoleChipRroleChip/
+role_map (2.serverproto.RoleMapRroleMap2
+	role_card	 (2.serverproto.RoleCardRroleCard;
+role_fashion
+ (2.serverproto.RoleFashionRroleFashion8
+role_battle (2.serverproto.RoleBattleR
+roleBattle2
+	role_task (2.serverproto.RoleTaskRroleTask2
+	role_chat (2.serverproto.RoleChatRroleChat/
+role_red (2.serverproto.RoleRedRroleRed2
+	role_mail (2.serverproto.RoleMailRroleMailG
+role_competition (2.serverproto.RoleCompetitionRroleCompetition2
+	role_shop (2.serverproto.RoleShopRroleShop>
+role_activity (2.serverproto.RoleActivityRroleActivity5
+
+role_tower (2.serverproto.RoleTowerR	roleTower5
+
+role_guild (2.serverproto.RoleGuildR	roleGuild2
+	role_draw (2.serverproto.RoleDrawRroleDraw2
+	role_rune (2.serverproto.RoleRuneRroleRuneG
+role_daochang100 (2.serverproto.RoleDaoChang100RroleDaochang100A
+role_statistic (2.serverproto.RoleStatisticRroleStatistic?
+role_keep_sake (2.serverproto.RoleKeepSakeRroleKeepSake5
+
+role_cross (2.serverproto.RoleCrossR	roleCross2
+	role_rush (2.serverproto.RoleRushRroleRushE
+role_skill_equip (2.serverproto.RoleSkillEquipRroleSkillEquip2
+	role_head (2.serverproto.RoleHeadRroleHead2
+	role_wish (2.serverproto.RoleWishRroleWishbproto3

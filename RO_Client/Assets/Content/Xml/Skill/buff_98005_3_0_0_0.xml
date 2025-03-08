@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="98005" target="Parter_101A1_Swrod" jobBranch="0" caster="Boss_8_1_Hyegun" name="妖君普攻" endFrame="60" jobStage="0" jobType="0" gender="3">
+    <event type="5" affectBySing="true" endFrame="60" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack02">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="7" affectBySing="true" endFrame="10" startFrame="1">
+      <param name="buffid" valueType="int" value="98014">
+      </param>
+      <param name="rate" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="7" affectBySing="true" endFrame="10" startFrame="1">
+      <param name="buffid" valueType="int" value="98016">
+      </param>
+      <param name="rate" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="40" startFrame="24">
+      <param name="effect" valueType="int" value="0">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Archer/Ningshensheji/FX_Hero_Archer_NSSJ_Chant.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="LHand_Point">
+      </param>
+    </event>
+    <event type="46" affectBySing="true" endFrame="51" startFrame="41">
+      <param name="hiteffect" valueType="int" value="10107">
+      </param>
+      <param name="hitEffectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Archer/Ningshensheji/FX_Hero_Archer_NSSJ_Hit.prefab">
+      </param>
+      <param name="hitEffectLink" valueType="string" value="Hit_Point">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

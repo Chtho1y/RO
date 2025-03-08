@@ -1,0 +1,33 @@
+local GMCfg = {
+[10001]={
+['GMID']=10001,
+['Code']='setsignday-1-1',
+['SortIndex']=1,
+['Name']='设置签到',
+},
+[10002]={
+['GMID']=10002,
+['Code']='setmap-1-1',
+['SortIndex']=2,
+['Name']='跳地图',
+},
+[10003]={
+['GMID']=10003,
+['Code']='AddRes-1-1000',
+['SortIndex']=3,
+['Name']='增加金币',
+},
+[10004]={
+['GMID']=10004,
+['Code']='addfashion-10001;addfashion-10002;addfashion-10003;addfashion-10004;addfashion-10010;addfashion-10018;addfashion-10021;addfashion-10022;addfashion-10023;addfashion-10033;addfashion-10034;addfashion-10036;addfashion-10039;addfashion-10040;addfashion-10042;addfashion-10045;addfashion-10046;addfashion-10049;addfashion-10050;addfashion-10051;addfashion-10052;addfashion-10054;addfashion-10059;addfashion-10070;addfashion-10071;addfashion-10072;addfashion-10073;addfashion-10074;addfashion-10075;addfashion-10076;addfashion-60001;addfashion-20008;addfashion-20009;addfashion-20010;addfashion-30001;addfashion-30002;addfashion-30005;addfashion-30015;addfashion-30007;addfashion-30008;addfashion-30009;addfashion-30010;addfashion-30011;addfashion-30012;addfashion-30013;',
+['SortIndex']=4,
+['Name']='增加时装1',
+},
+[10005]={
+['GMID']=10005,
+['Code']='addfashion-30014;addfashion-40001;addfashion-40002;addfashion-40003;addfashion-40004;addfashion-40005;addfashion-40006;addfashion-50006;addfashion-50007;addfashion-50008;addfashion-50009;addfashion-50011;addfashion-50012;addfashion-50014;addfashion-50016;addfashion-50017;addfashion-50018;addfashion-50019;addfashion-50021;addfashion-50022;addfashion-50023;addfashion-50025;addfashion-50027;addfashion-50028;addfashion-50029;addfashion-50030;addfashion-50032;addfashion-50033;addfashion-50035;addfashion-50001;addfashion-50002;addfashion-50003;addfashion-50004;addfashion-50005;addfashion-60003;addfashion-60007;addfashion-60008;addfashion-60009;addfashion-60010;addfashion-60011;addfashion-60012;addfashion-60013;addfashion-60014;',
+['SortIndex']=5,
+['Name']='增加时装2',
+},
+}
+return GMCfg

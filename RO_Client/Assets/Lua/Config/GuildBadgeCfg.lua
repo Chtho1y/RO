@@ -1,0 +1,35 @@
+local GuildBadgeCfg = {
+[1]={
+['Id']=1,
+['Pic']='GuildFlag/img_tempflag_01',
+},
+[2]={
+['Id']=2,
+['Pic']='GuildFlag/img_tempflag_02',
+},
+[3]={
+['Id']=3,
+['Pic']='GuildFlag/img_tempflag_03',
+},
+[4]={
+['Id']=4,
+['Pic']='GuildFlag/img_tempflag_04',
+},
+[5]={
+['Id']=5,
+['Pic']='GuildFlag/img_tempflag_05',
+},
+[6]={
+['Id']=6,
+['Pic']='GuildFlag/img_tempflag_06',
+},
+[7]={
+['Id']=7,
+['Pic']='GuildFlag/img_tempflag_07',
+},
+[8]={
+['Id']=8,
+['Pic']='GuildFlag/img_tempflag_08',
+},
+}
+return GuildBadgeCfg

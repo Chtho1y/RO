@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="90024" target="Parter_50022_Acolyte" jobBranch="0" caster="Parter_50021_Acolyte" name="治愈术" endFrame="96" jobStage="0" jobType="0" gender="3">
+    <event type="44" endFrame="42" startFrame="0">
+      <param name="animName" valueType="string" value="f_skill04_01">
+      </param>
+      <param name="hiteffect" valueType="int" value="10178">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Acolyte/ZhiYuShu_Skill01/FX_Hero_Acolyte_ZYS_Skill01_02.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+      <param name="sound" valueType="string" value="Skill/Chant_90024">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Skill/Chant_90024">
+      </param>
+    </event>
+    <event type="4" affectBySing="true" endFrame="96" startFrame="42">
+      <param name="effect" valueType="int" value="10179">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Acolyte/ZhiYuShu_Skill01/FX_Hero_Acolyte_ZYS_Skill01_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+    <event type="5" affectBySing="true" endFrame="81" startFrame="42">
+      <param name="animName" valueType="string" value="f_skill04_03">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="46" affectBySing="true" endFrame="96" startFrame="48">
+      <param name="hiteffect" valueType="int" value="10180">
+      </param>
+      <param name="hitEffectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Acolyte/ZhiYuShu_Skill01/FX_Hero_Acolyte_ZYS_Skill01_Hit.prefab">
+      </param>
+      <param name="hitEffectLink" valueType="string" value="Foot_Point">
+      </param>
+      <param name="sound" valueType="string" value="Hit/Hit_10005">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Hit/Hit_10005">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

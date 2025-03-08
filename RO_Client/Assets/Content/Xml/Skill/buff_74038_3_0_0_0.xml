@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="74038" target="Boss_14_5_Lora" jobBranch="0" caster="Boss_6_5_Osiris" name="诅咒攻击" endFrame="110" jobStage="0" jobType="0" gender="3">
+    <event type="44" endFrame="30" startFrame="0">
+      <param name="animName" valueType="string" value="f_idle">
+      </param>
+      <param name="hiteffect" valueType="int" value="0">
+      </param>
+    </event>
+    <event type="5" endFrame="110" startFrame="30">
+      <param name="animName" valueType="string" value="f_skill01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="4" endFrame="110" startFrame="61">
+      <param name="effect" valueType="int" value="10478">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/20209_Osiris/Skill_02/Fx_20209_Osiris_Skill_02.prefab">
+      </param>
+    </event>
+    <event type="2" endFrame="110" startFrame="65">
+      <param name="sound" valueType="string" value="Skill/Release_11012">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Skill/Release_11012">
+      </param>
+    </event>
+    <event type="46" endFrame="82" startFrame="68">
+      <param name="hiteffect" valueType="int" value="10476">
+      </param>
+      <param name="hitEffectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/20209_Osiris/Skill_02/Fx_20209_Osiris_Skill_02_Hit.prefab">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

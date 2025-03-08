@@ -1,0 +1,33 @@
+local RuneShopRankAidouluCfg = {
+[1]={
+['Id']=1,
+['RankId']=1,
+['Name']='出道助力礼包',
+['NameImg']='RankBanner/text_idol_adv_01_cn',
+['Banner']='RankBanner/sale_idol_bg01',
+['RMB']=128,
+['Reward']={{238,300},{239,300},{2,300}},
+['ExtraNum']='必买',
+['RestrictedType']=999,
+['SortId']=1,
+['SeverReward']={{238,300},{2,300}},
+['RewardScore']=300,
+['IfRequite']=0,
+},
+[2]={
+['Id']=2,
+['RankId']=1,
+['Name']='巨星回馈礼包',
+['NameImg']='RankBanner/text_idol_adv_02_cn',
+['Banner']='RankBanner/sale_idol_bg02',
+['RMB']=328,
+['Reward']={{242,1},{238,1000},{239,1000},{2,1000}},
+['ExtraNum']='超值',
+['RestrictedType']=5,
+['SortId']=2,
+['SeverReward']={{238,1000},{2,1000}},
+['RewardScore']=1000,
+['IfRequite']=1,
+},
+}
+return RuneShopRankAidouluCfg

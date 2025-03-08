@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="90418" target="Boss_14_5_Lora" jobBranch="0" caster="Boss_16_1_Sandman" name="怪物普攻" endFrame="32" jobStage="0" jobType="0" gender="3">
+    <event type="5" endFrame="30" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="46" endFrame="30" startFrame="11">
+      <param name="hiteffect" valueType="int" value="10297">
+      </param>
+      <param name="hitEffectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Hero/Common/Hit/FX_Hero_Common_Hit_Fire.prefab">
+      </param>
+      <param name="hitEffectLink" valueType="string" value="Hit_Point">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+    <event type="4" endFrame="32" startFrame="12">
+      <param name="effect" valueType="int" value="10946">
+      </param>
+      <param name="effectPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/Boss_16_1_Sandman/Attack_01/Fx_Boss_16_1_Sandman_Attack_01.prefab">
+      </param>
+      <param name="effectLink" valueType="string" value="Foot_Point">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

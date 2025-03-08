@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameEvent>
+  <buff id="90209" target="Parter_101A1_Swrod" jobBranch="0" caster="Boss_3_2_Priest" name="暗黑祭司普攻" endFrame="40" jobStage="0" jobType="0" gender="1">
+    <event type="5" affectBySing="true" endFrame="40" startFrame="0">
+      <param name="animName" valueType="string" value="f_attack01">
+      </param>
+      <param name="animSpeed" valueType="int" value="100">
+      </param>
+    </event>
+    <event type="47" affectBySing="true" endFrame="40" startFrame="20">
+      <param name="bulletid" valueType="int" value="10061">
+      </param>
+      <param name="bulletPrefab" valueType="string" value="Assets/Content/Prefabs/Effects/Monster/20828_Priest/Attack_01/Fx_20828_Attack_01.prefab">
+      </param>
+      <param name="bulletLink" valueType="string" value="RHand_Point">
+      </param>
+      <param name="bulletTargetLink" valueType="string" value="Hit_Point">
+      </param>
+      <param name="bulletFlyDuration" valueType="string" value="2">
+      </param>
+      <param name="bulletInitVelocity" valueType="string" value="0;0;10">
+      </param>
+      <param name="bulletAcceleration" valueType="string" value="0;0;10">
+      </param>
+      <param name="bulletAccelerationTime" valueType="string" value="1">
+      </param>
+      <param name="bulletTargetLink" valueType="string" value="Hit_Point">
+      </param>
+      <param name="range" valueType="string" value="0.5;0.5;0.5">
+      </param>
+      <param name="hiteffect" valueType="int" value="0">
+      </param>
+      <param name="buffid" valueType="int" value="0">
+      </param>
+      <param name="rate" valueType="int" value="0">
+      </param>
+      <param name="moveType" valueType="int" value="0">
+      </param>
+      <param name="initSpeed" valueType="int" value="0">
+      </param>
+      <param name="acceleration" valueType="int" value="0">
+      </param>
+      <param name="moveDist" valueType="int" value="0">
+      </param>
+    </event>
+    <event type="2" affectBySing="true" endFrame="40" startFrame="20">
+      <param name="sound" valueType="string" value="Bullet/Bullet_12000">
+      </param>
+      <param name="soundPath" valueType="string" value="Assets/Content/Audio/Fight/Bullet/Bullet_12000">
+      </param>
+    </event>
+  </buff>
+</FrameEvent>

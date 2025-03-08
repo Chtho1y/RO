@@ -1,0 +1,119 @@
+
+™
+crossserver.protoserverproto
+user.proto"!
+SSCrossYuanHangTrialViewListReq"
+SSCrossYuanHangTrialViewListAck
+error (RerrorF
+trial_view_list (2.serverproto.YuanHangTrialDataRtrialViewList"æ
+SSCrossYuanHangTrialSelfReq
+self_uid (RselfUid
+
+trial_type (R	trialType$
+end_time_stamp (RendTimeStampB
+self_fight_info (2.serverproto.FightRoleInfoRselfFightInfo#
+duration_time (RdurationTime"Z
+SSCrossYuanHangTrialSelfAck;
+	self_info (2.serverproto.YuanHangTrialDataRselfInfo"Ç
+SSCrossYuanHangTrialReq
+
+trial_type (R	trialType$
+end_time_stamp (RendTimeStampB
+self_fight_info (2.serverproto.FightRoleInfoRselfFightInfo#
+duration_time (RdurationTime"
+SSCrossYuanHangTrialAck"­
+ SSCrossYuanHangTrialChallengeReq#
+challenge_uid (RchallengeUid3
+challenge_uid_end_time (RchallengeUidEndTime/
+be_challenge_max_num (RbeChallengeMaxNum"Í
+ SSCrossYuanHangTrialChallengeAck
+error (Rerror#
+challenge_uid (RchallengeUid3
+challenge_uid_end_time (RchallengeUidEndTime9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"e
+SSCrossYuanHangTrialViewNtfF
+trial_view_list (2.serverproto.YuanHangTrialDataRtrialViewList"µ
+&SSCrossYuanHangTrialChallengeResultReq%
+challenged_uid (RchallengedUid5
+challenged_uid_end_time (RchallengedUidEndTime
+
+fight_time (R	fightTime
+win (Rwin$
+self_nick_name (	RselfNickName
+	self_zone (RselfZone9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"¸
+&SSCrossYuanHangTrialChallengeResultAck
+error (Rerror
+win (Rwin(
+ship_trial_level (RshipTrialLevel<
+log_data (2!.serverproto.YuanHangTrialLogDataRlogData"Y
+&SSCrossYuanHangTrialUpdateRankScoreNtf
+uid (Ruid
+
+rank_score (R	rankScore"P
+SSCrossYuanHangTrialRankListReq
+uid (Ruid
+	start_idx (RstartIdx"Ó
+SSCrossYuanHangTrialRankListAck
+	start_idx (RstartIdx
+	self_rank (RselfRank
+
+self_score (R	selfScore
+
+total_rank (R	totalRank8
+	rank_list (2.serverproto.CommonRankInfoRrankList"s
+SSCrossYuanHangTrialLogNtf
+ntf_uid (RntfUid<
+log_data (2!.serverproto.YuanHangTrialLogDataRlogData"`
+SSCrossYuanHangTrialInfoReq
+	trial_uid (RtrialUid$
+trial_end_time (RtrialEndTime"
+SSCCrossYuanHangTrialInfoAck
+error (Rerror=
+
+trial_data (2.serverproto.YuanHangTrialDataR	trialData
+	nick_name (	RnickName"‚
+SSCrossRankUpdateNtf/
+self_max_fight_power (RselfMaxFightPower9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"Z
+SSCrossRankFightInfoUpdateNtf9
+
+fight_info (2.serverproto.FightRoleInfoR	fightInfo"
+SSCrossTopTowerMatchFightReq"€
+SSCrossTopTowerMatchFightAck
+error (RerrorJ
+fight_info_list (2".serverproto.TopTowerFightRoleInfoRfightInfoList"C
+$SSCrossTopTowerForceWinRankUpdateNtf
+	fight_uid (RfightUid"S
+"SSCrossTopTowerForceWinRankListReq
+uid (Ruid
+	start_idx (RstartIdx"Ö
+"SSCrossTopTowerForceWinRankListAck
+	start_idx (RstartIdx
+	self_rank (RselfRank
+
+self_score (R	selfScore
+
+total_rank (R	totalRank8
+	rank_list (2.serverproto.CommonRankInfoRrankList"6
+SSGCrossMapPlayerEnterReq
+aoi_line (RaoiLine"u
+SSGCrossMapPlayerEnterAck
+error (Rerror'
+pos (2.serverproto.PositionRpos
+aoi_node (	RaoiNode"D
+SSGCrossMapPlayerLeaveReq'
+pos (2.serverproto.PositionRpos"
+SSGCrossMapPlayerLeaveAck"J
+SSGCrossMapPlayerLeaveNtf-
+players (2.serverproto.PlayerRplayers"F
+SSGCrossMapPlayerSyncPosReq'
+pos (2.serverproto.PositionRpos"L
+SSGCrossMapPlayerSyncPosNtf-
+players (2.serverproto.PlayerRplayers"c
+SSGCrossMapPlayerMoveReq1
+velocity (2.serverproto.PositionRvelocity
+speed (Rspeedbproto3
